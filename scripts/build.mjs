@@ -1,0 +1,11 @@
+import { mkdir, copyFile, cp, rm, access } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = fileURLToPath(new URL('../', import.meta.url));
+const dist = path.join(root, 'dist');
+for (const entry of ['index.html', 'style.css', 'app.js', 'assets']) await access(path.join(root, entry));
+await rm(dist, { recursive: true, force: true });
+await mkdir(dist, { recursive: true });
+for (const entry of ['index.html', 'style.css', 'app.js']) await copyFile(path.join(root, entry), path.join(dist, entry));
+await cp(path.join(root, 'assets'), path.join(dist, 'assets'), { recursive: true });
+console.log('Built static website → dist/');

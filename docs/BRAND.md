@@ -1,0 +1,23 @@
+# Working brand direction
+
+Selected by Aleksa on 2026-10-17. This is a working system, not a claim of trademark clearance.
+
+| Element | Decision |
+| --- | --- |
+| Name | Feleo — coined from Hungarian `felel` (to answer); Feleo itself is not a Hungarian dictionary word |
+| Domain | feleo.ai, single-domain strategy |
+| Icon | Two-part feather / wing; flame and previous cloud/bolt directions rejected |
+| Primary color | Sky blue #1FB6FF |
+| Background | Near-white blue #F4FAFF; quiet off-white secondary canvas |
+| Text | Dark ink #182D38; secondary #4E626D |
+| Typography | Hanken Grotesk across headlines, body, UI, documents and ads |
+| Tone | Calm, confident, clear; concrete business outcomes |
+| Materials | Restrained translucent glass navigation; airy imagery and generous whitespace |
+
+Typography starting rules: headings 400–500; body 400; labels/buttons 500–600. Use actual font files and real Hungarian characters, including ő/ű. Stronger contrast and size hierarchy, not decorative italic serif accents, creates emphasis. Sky blue works as a visual accent; small text needs a darker accessible blue. Do not assume white text on sky blue meets text-contrast requirements.
+
+Use the owner's four style-reference documents as composition inspiration: Anything, Perplexity Computer, General Intelligence Company, Delphi. Their colors, wordmarks and proprietary fonts are not Feleo's requirements. The selected Hanken-only preference supersedes the initial serif interpretation.
+
+The current landscape supports the idea of breathing room. It does not depict the Budapest office or a customer location. Future real team imagery must be authentic and permissioned.
+
+Outstanding: optically refine the feather at favicon sizes; define clearspace, minimum size, monochrome and reversed variants; export SVG/PNG/social-avatar kit; establish document and ad templates with the same font.
