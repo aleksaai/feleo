@@ -16,3 +16,5 @@ Workflow for a Sites-capable agent:
 6. Keep token values only in memory and pass them through the helper's hidden stdin.
 
 Production host and feleo.ai DNS remain future decisions. No production domain, email DNS or audience change is part of the initial repository migration.
+
+Multi-page update: src/content.mjs and src/render.mjs generate all routes into dist/. Root index.html is no longer source. Mirror those files and pages.css as well as existing sources/assets. The source helper packages the generated dist directory, not root HTML.

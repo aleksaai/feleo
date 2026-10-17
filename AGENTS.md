@@ -10,7 +10,7 @@ Read HANDOFF.md, PLAN.md and docs/BRAND.md before continuing. This repository is
 - OpenPenguin Voice is a separate software repository; do not migrate or modify it through this marketing project without explicit scope.
 
 ## Implementation
-- Current code is static HTML/CSS/JS with self-hosted Lenis 1.3.27; no npm install required. Edit root sources and assets, run npm run check and npm run build. Never hand-edit dist.
+- Current code is static HTML/CSS/JS with self-hosted Lenis 1.3.27; no npm install required. Edit src/content.mjs (bilingual copy/routes), src/render.mjs (templates), root CSS/JS and assets; run npm run check and npm run build. Never hand-edit dist.
 - No secrets or private GTM dossiers in the repository. Keep third-party font license files.
 - Test responsive layouts at 1440, 390 and 320px and check the primary interaction after changes.
 - Keep example conversations labelled illustrative. No fake live-call, booking or submission confirmations.
@@ -23,3 +23,6 @@ Aleksa builds with coding agents; preparation should not be blocked on extensive
 
 ## Motion implementation
 `motion.css` and `motion.js` own the scroll/navigation choreography; `style.css` and `app.js` remain the base layout and business interactions. Build copies both motion files. Preserve native touch, no-JS content visibility, reduced-motion support and modal scroll locking. Keep the vendored Lenis MIT notice. Verify real wheel/anchor behavior, not screenshots alone.
+
+## Multi-page architecture
+The build generates 16 page types in HU/EN (32 routes). Root is Hungarian; /en/ is English. Preserve localized route equivalence and navigation. app.js handles dropdowns, product-demo tabs and the local enquiry preview. motion.js must tolerate pages without a hero, conversation section or dialog. Use real supplied portraits for Aleksa, labelled initial-letter placeholders for Debóra/Ákos. Platform and project illustrations must remain labelled; never call them actual screenshots. Prior work/testimonials are attributed to ALEKSA AI, not invented Feleo customers. Legal/company pages are draft preview disclosures until real details are verified.

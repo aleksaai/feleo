@@ -27,6 +27,22 @@ The current prototype establishes the visual direction. The next objective is a 
 - [x] Reproducible static build and syntax/build CI configuration.
 - [x] Private preview retained; no production DNS changes.
 
+## Implementation progress — multi-page expansion
+
+- [x] Shared static page/locale generator and cross-language route switching.
+- [x] Software overview plus dedicated Voice and Chat pages.
+- [x] Industry pages with distinct pilot scope; implementation and indicative pricing pages.
+- [x] Founder/team imagery; owner-authorized placeholders for Debóra and Ákos.
+- [x] Previous-work references and short attributed testimonials.
+- [x] Local enquiry preview with basic form validation and edit/review state.
+- [x] Data/integration explanation and explicitly draft legal/company pages.
+- [ ] Native Hungarian copy review and commercial wording confirmation.
+- [ ] Actual redacted product screenshots/audio; current views are labelled illustrations.
+- [ ] Live lead delivery, CRM/booking/sender and tracking/consent wiring.
+- [ ] Complete verified company/legal information and production domain/SEO release.
+
+The current route map is src/content.mjs; architecture decisions and sources are in docs/WEBSITE-STRUCTURE.md. This progress section supersedes the earlier preliminary route names below without declaring the full phases complete.
+
 ## Work sequence
 
 ### Phase 1 — Finish the design and content structure

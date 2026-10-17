@@ -1,6 +1,6 @@
 # Feleo
 
-Marketing website for Feleo, a Budapest-based AI implementation business and future home of Feleo Voice.
+Marketing website for Feleo, a Budapest-based AI implementation business and marketing home of its voice and chat platform.
 
 - **Source of truth:** https://github.com/aleksaai/feleo
 - **Private design preview:** https://feleo-design-study.enneo.chatgpt.site
@@ -20,13 +20,13 @@ npm run build
 npm run preview
 ```
 
-Development and preview default to http://127.0.0.1:8769. Set `PORT` if needed. Run only one server on that port at a time.
+Development builds once before serving; after source edits rerun `npm run build` and refresh the page. Development and preview default to http://127.0.0.1:8769. Set `PORT` if needed. Run only one server on that port at a time.
 
-`index.html`, `style.css`, `motion.css`, `app.js`, `motion.js` and `assets/` are the editable source. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
+`src/content.mjs` holds the bilingual copy and route map; `src/render.mjs` generates shared layouts and pages. `style.css`, `motion.css`, `pages.css`, `app.js`, `motion.js` and `assets/` hold the presentation and interactions. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
 
 ## Current scope
 
-Responsive English homepage with Hanken Grotesk, sky-blue feather branding, restrained glass navigation, generated landscape artwork, three illustrative industry conversations, FAQs and a local enquiry preview. No live voice, form submission, CRM, analytics or booking integration. The form explicitly states that nothing is sent or saved. Preview indexing is disabled.
+32 static Hungarian/English routes with Hanken Grotesk, sky-blue feather branding, weighted scrolling, software/Voice/Chat pages, three industry offers, implementation, pricing, previous-work references, founder/team imagery, FAQs and a local enquiry preview. No live voice, form submission, CRM, analytics or booking integration. The form explicitly states that nothing is sent or saved. Preview indexing is disabled.
 
 ## Hosting
 
@@ -39,3 +39,7 @@ Hanken Grotesk is self-hosted with its OFL license in `assets/`. The landscape w
 ## Motion
 
 Fixed glass navigation contracts on scroll; a sliding indicator follows the active section. Desktop wheel scrolling uses locally vendored Lenis (lerp 0.065, multiplier 0.85). Hero imagery moves subtly with scrolling, content enters with long eased reveals, and the example panel settles into place. Touch uses native scrolling. Reduced-motion changes disable smoothing/parallax/reveals; opening the enquiry dialog stops background smoothing. All content remains visible without motion JavaScript.
+
+## Page architecture and references
+
+See [docs/WEBSITE-STRUCTURE.md](docs/WEBSITE-STRUCTURE.md). Hungarian pages are at the root; English pages under `/en/`. Copy is ready for review, not a substitute for native Hungarian review. Legal pages are explicitly preview notices, not final production compliance documents. The source template produces the homepage; there is no editable root index.html.

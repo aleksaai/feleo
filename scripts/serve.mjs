@@ -17,5 +17,5 @@ http.createServer(async (req, res) => {
     const bytes = await readFile(target);
     res.writeHead(200, { 'Content-Type': mime[path.extname(target)] || 'application/octet-stream', 'Cache-Control':'no-store' });
     res.end(bytes);
-  } catch { res.writeHead(404); res.end('Not found'); }
+  } catch { res.writeHead(404, { 'Content-Type': 'text/html; charset=utf-8' }); try { res.end(await readFile(path.join(root, '404.html'))); } catch { res.end('Not found'); } }
 }).listen(port, '127.0.0.1', () => console.log(`Feleo preview: http://127.0.0.1:${port}`));

@@ -1,5 +1,17 @@
 # Feleo handoff
 
+## 2026-10-17 — Multi-page bilingual expansion
+
+User authorized starting the researched website architecture, added Xmethod as a reference and supplied five founder photos. Expanded to 16 page types × HU/EN = 32 static routes. Preserved the approved Hanken/sky-blue identity and weighted scroll. Added software overview, Voice, Chat, three industry offers, implementation, pricing/pilot scope, selected prior work/testimonials, founder/team, data/integration explanation, enquiry and explicitly draft legal/company/confirmation pages.
+
+New source: src/content.mjs (copy/routes), src/render.mjs (shared templates), pages.css. Build generates dist only; old editable root index.html removed. npm run dev builds once then serves; rerun build to refresh edits. Photos in assets/people are unchanged originals, cropped with CSS. Debóra/Ákos use owner-authorized labelled placeholders.
+
+Product views are workflow illustrations, not screenshots or live agents. Contact form is a local preview: zero sending/storage/booking. Hungarian copy is a native-review draft. Pricing is indicative, not checkout. Previous experience explicitly attributed to Aleksa/ALEKSA AI. No unsupported metric or Feleo client-count claims. Full architecture: docs/WEBSITE-STRUCTURE.md.
+
+Verification: all 32 routes and 32 internal route targets returned successfully. Checked all pages at 1440/390/320px with no horizontal overflow, one H1 each and no browser errors. Verified Voice/Chat tabs, dropdown navigation, matching language routes, local form validation/editing with zero POSTs, image loading, mobile navigation, desktop Lenis/compact header, reduced motion, no-JS content and the 404 page.
+
+Next: native-copy and commercial review; capture real redacted platform visuals; connect actual CRM/booking/sender for a pilot-ready funnel. Current privacy/company pages are not production legal completion. Maintain private/noindex preview.
+
 ## 2026-10-17 — Scroll and navigation refinement
 
 Owner found the page too generic and requested a sleek dynamic header and heavy, slow Framer-like scrolling. Added a fixed glass nav that contracts from 980 to 780px, animated section/hover indicator, larger asymmetric Hanken hero, restrained parallax, long eased entrance/reveal transitions, editorial capability rows and a settling conversation panel. Existing enquiry/tab behavior retained.
