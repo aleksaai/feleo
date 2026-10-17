@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## 2026-10-17 — Open CTA and landscape footer
+
+Owner disliked the large blue closing CTA box and supplied a Superchat footer reference with an oversized pale wordmark above a landscape. Replaced the shared blue box with an unboxed, left-aligned invitation and working localized contact CTA. Appended an original AI-generated panoramic river landscape with large pale Hanken `feleo` lettering after the footer navigation/legal row. It is decorative, not a claimed real location. Applies across shared HU/EN templates; existing hero and motion retained.
+
+New asset: assets/editorial/feleo-horizon.png. Native image proportions maintained; CSS masks fade sky into the page while keeping the lettering readable. Verified HU/EN CTA links, desktop 1440 and mobile 390/320 layouts, no overflow or browser/resource errors. This is a new revision awaiting owner reaction, not blanket approval of the site.
+
 ## Session close — 2026-10-17
 
 - Current private preview: https://feleo-design-study.enneo.chatgpt.site/en/ (English); `/` is Hungarian. Latest website source on GitHub: `d59cd352e95f3687c37326c654be2ac3e5abb79e`.

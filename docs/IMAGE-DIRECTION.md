@@ -22,3 +22,9 @@ HVAC subject: Close editorial crop of an anonymous technician's hands adjusting 
 Accounting subject: Quiet desk by a window, neatly arranged folders, closed dark-blue notebook, pen and part of an unbranded slim laptop; no legible financial or personal data; pale blue, warm white and natural light.
 
 Generated images are used as illustrative brand assets. The About page identifies the founder portrait as AI-generated from personal reference photos. Industry image alt text identifies generated illustration. No generated image is presented as evidence of a client project, team event or actual company premises.
+
+## Landscape footer
+
+Output: `assets/editorial/feleo-horizon.png`, generated with the built-in image tool. New original composition prompted from the user's desired spacious landscape-footer direction, not a copy of Superchat's image.
+
+Prompt: Original panoramic footer landscape for a refined sky-blue AI brand. Clean almost-white upper sky fading into pale blue; lower portion a serene imagined near-future European riverside landscape with a calm winding river, pale-green meadows, sparse trees, soft blue hills, a few small sculptural white buildings and a delicate pedestrian bridge. Wildflowers and warm sunlight in foreground. Airy cinematic architectural visualization with photorealistic materials, subdued greens and icy blue. No text, logos, UI, dense skyscrapers, spacecraft or close-up people. Decorative imagined place, not a claimed real location. The `feleo` lettering is separate selectable HTML, not generated in the bitmap.

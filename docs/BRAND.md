@@ -25,3 +25,5 @@ Outstanding: optically refine the feather at favicon sizes; define clearspace, m
 Motion direction (17 Oct): deliberate, weighted desktop movement; a compacting glass navigation capsule; oversized asymmetrical Hanken hero; restrained image parallax and 1–1.3 second eased reveals. No scroll snapping or mandatory pinned storytelling. Native touch and reduced-motion alternatives remain.
 
 Latest imagery/content direction: photographs supplied by Aleksa are identity references for generated on-brand portraits. Do not reinsert original selfies as website photography. Keep homepage copy sparse, eliminate fake software interfaces and dropdowns, and use purposeful image-led sections with content depth on the relevant pages.
+
+Footer direction: owner rejected the boxed blue CTA. Use an open two-column invitation followed by footer links and an atmospheric landscape sign-off, with oversized pale Hanken `feleo` lettering. The landscape is original generated decorative art.
