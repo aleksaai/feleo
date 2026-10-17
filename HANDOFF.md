@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## Owner approval and software handoff — 2026-10-17
+
+Aleksa explicitly approved the new open CTA, landscape footer and large pale lettering, and expressed satisfaction with this implementation. Preserve it. Website code `2432a4eb2599cc4ffd639f233d539382e25df9f4` is published privately; Sites source `3b99d09c8603fb781ca58ad76822b96c9c1813bc`, successful deployment `appgdep_6ad3e316d59c81918e28291d9fad0e34`. Earlier "awaiting reaction" notes below describe prior checkpoints. This visual approval does not make the draft forms/legal pages production-ready.
+
+Next owner focus is the existing voice/chat software in a new Marcus session. Hard requirement: no changes to existing customer/white-label behavior, especially Beauty Lounge behind the owner's app.aleksa.ai account. A read-only source review indicates shared backend/deployment surfaces; a frontend branch/domain alone is insufficient. Full proposed isolated-environment plan is saved in the team repository at `ai-team/status/FELEO-SOFTWARE-HANDOFF.md`. No application changes or infrastructure provisioning occurred. Keep this repository as marketing-site code, not the software app.
+
 ## 2026-10-17 — Open CTA and landscape footer
 
 Owner disliked the large blue closing CTA box and supplied a Superchat footer reference with an oversized pale wordmark above a landscape. Replaced the shared blue box with an unboxed, left-aligned invitation and working localized contact CTA. Appended an original AI-generated panoramic river landscape with large pale Hanken `feleo` lettering after the footer navigation/legal row. It is decorative, not a claimed real location. Applies across shared HU/EN templates; existing hero and motion retained.

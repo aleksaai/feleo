@@ -2,7 +2,7 @@
 
 Status: 2026-10-17. Source of truth: `aleksaai/feleo`.
 
-**Current checkpoint:** the owner approved the Hanken/sky-blue hero and motion, then rejected the first text-heavy multi-page expansion. The subsequent image-led revision is published privately and awaits his visual feedback. Do not treat the architecture checklist or session close as approval of the latest design. See the current HANDOFF.md entry before extending the site.
+**Current checkpoint:** the owner approved the Hanken/sky-blue hero and motion, rejected the first text-heavy expansion, and subsequently explicitly approved the new open CTA/landscape footer. Preserve the latest direction. His next focus is safely isolated software development with Marcus; existing customers must stay untouched. See HANDOFF.md and the team repository's `ai-team/status/FELEO-SOFTWARE-HANDOFF.md`. Visual approval does not complete lead-delivery, legal or localization launch tasks.
 
 ## Outcome
 
