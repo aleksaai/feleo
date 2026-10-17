@@ -22,7 +22,7 @@ npm run preview
 
 Development builds once before serving; after source edits rerun `npm run build` and refresh the page. Development and preview default to http://127.0.0.1:8769. Set `PORT` if needed. Run only one server on that port at a time.
 
-`src/content.mjs` holds the bilingual copy and route map; `src/render.mjs` generates shared layouts and pages. `style.css`, `motion.css`, `pages.css`, `app.js`, `motion.js` and `assets/` hold the presentation and interactions. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
+`src/content.mjs` holds the bilingual copy and route map; `src/render.mjs` generates shared layouts and pages. `style.css`, `motion.css`, `pages.css`, `editorial.css`, `app.js`, `motion.js` and `assets/` hold the presentation and interactions. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
 
 ## Current scope
 
@@ -43,3 +43,6 @@ Fixed glass navigation contracts on scroll; a sliding indicator follows the acti
 ## Page architecture and references
 
 See [docs/WEBSITE-STRUCTURE.md](docs/WEBSITE-STRUCTURE.md). Hungarian pages are at the root; English pages under `/en/`. Copy is ready for review, not a substitute for native Hungarian review. Legal pages are explicitly preview notices, not final production compliance documents. The source template produces the homepage; there is no editable root index.html.
+
+## Current visual direction
+After owner feedback the website uses direct navigation, an image-led homepage, generated brand portraits and sector photography, and expandable offer details. Invented software dashboard previews and dropdowns have been removed. Image provenance: docs/IMAGE-DIRECTION.md.

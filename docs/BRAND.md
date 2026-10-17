@@ -23,3 +23,5 @@ The current landscape supports the idea of breathing room. It does not depict th
 Outstanding: optically refine the feather at favicon sizes; define clearspace, minimum size, monochrome and reversed variants; export SVG/PNG/social-avatar kit; establish document and ad templates with the same font.
 
 Motion direction (17 Oct): deliberate, weighted desktop movement; a compacting glass navigation capsule; oversized asymmetrical Hanken hero; restrained image parallax and 1–1.3 second eased reveals. No scroll snapping or mandatory pinned storytelling. Native touch and reduced-motion alternatives remain.
+
+Latest imagery/content direction: photographs supplied by Aleksa are identity references for generated on-brand portraits. Do not reinsert original selfies as website photography. Keep homepage copy sparse, eliminate fake software interfaces and dropdowns, and use purposeful image-led sections with content depth on the relevant pages.

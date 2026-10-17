@@ -1,3 +1,5 @@
+> Latest revision: the owner rejected the text-heavy expansion, software dropdowns, fake UI preview and direct use of original photos. Current navigation is What we do / Who we help / About. The homepage uses short typographic service links, sector imagery and an AI-generated founder portrait. Product detail lives in image-led disclosures. Original plan below is retained as architectural history, not the current visual specification. See IMAGE-DIRECTION.md and HANDOFF.md.
+
 # Website architecture — 17 October 2026
 
 ## Positioning

@@ -1,5 +1,13 @@
 # Feleo handoff
 
+## 2026-10-17 — Visual correction after owner feedback
+
+Owner rejected the generic/text-heavy expansion, software dropdown, invented interface preview and use of original photos. Implemented a shorter image-led homepage, direct What we do / Who we help / About navigation, a typographic voice/chat/automation section instead of fake UI, staggered industry photography, a new founder portrait panel, and image-led product/sector pages with expandable detail. About no longer uses the original Budapest event photo; project diagrams are removed from visual presentation. All 32 HU/EN routes remain.
+
+Generated a photorealistic founder portrait using three supplied photos as identity references, plus three consistent sector images, with the built-in image tool. Originals remain archived assets but are not referenced by rendered pages. AI portrait attribution is present on About and in alt text. New editorial.css is included in build. No live delivery/bookings added.
+
+Validation: 32 routes at 1440/390/320px, zero overflow/browser errors; no .product-demo or .nav-dropdown in generated DOM. Verified images, scope disclosures, mobile direct navigation and local form preview/editing. Source provenance and prompt briefs: docs/IMAGE-DIRECTION.md.
+
 ## 2026-10-17 — Multi-page bilingual expansion
 
 User authorized starting the researched website architecture, added Xmethod as a reference and supplied five founder photos. Expanded to 16 page types × HU/EN = 32 static routes. Preserved the approved Hanken/sky-blue identity and weighted scroll. Added software overview, Voice, Chat, three industry offers, implementation, pricing/pilot scope, selected prior work/testimonials, founder/team, data/integration explanation, enquiry and explicitly draft legal/company/confirmation pages.
