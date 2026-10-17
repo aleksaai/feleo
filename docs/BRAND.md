@@ -21,3 +21,5 @@ Use the owner's four style-reference documents as composition inspiration: Anyth
 The current landscape supports the idea of breathing room. It does not depict the Budapest office or a customer location. Future real team imagery must be authentic and permissioned.
 
 Outstanding: optically refine the feather at favicon sizes; define clearspace, minimum size, monochrome and reversed variants; export SVG/PNG/social-avatar kit; establish document and ad templates with the same font.
+
+Motion direction (17 Oct): deliberate, weighted desktop movement; a compacting glass navigation capsule; oversized asymmetrical Hanken hero; restrained image parallax and 1–1.3 second eased reveals. No scroll snapping or mandatory pinned storytelling. Native touch and reduced-motion alternatives remain.

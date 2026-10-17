@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## 2026-10-17 — Scroll and navigation refinement
+
+Owner found the page too generic and requested a sleek dynamic header and heavy, slow Framer-like scrolling. Added a fixed glass nav that contracts from 980 to 780px, animated section/hover indicator, larger asymmetric Hanken hero, restrained parallax, long eased entrance/reveal transitions, editorial capability rows and a settling conversation panel. Existing enquiry/tab behavior retained.
+
+New files: motion.css, motion.js; self-hosted assets/vendor/lenis-1.3.27.min.js and CSS with MIT license. No build-tool migration. Desktop uses weighted wheel scrolling; touch remains native. Reduced-motion changes disable added motion, no-JS content stays visible, and modal opening pauses background scrolling. Source/build README updated.
+
 ## 2026-10-17 — Canonical GitHub repository and Hanken baseline
 
 Owner asked to put the prototype in `aleksaai/feleo`, prefers **Hanken only**, and requested a completion plan.

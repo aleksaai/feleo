@@ -11,7 +11,7 @@ Marketing website for Feleo, a Budapest-based AI implementation business and fut
 
 ## Run
 
-Node 22 or newer. No dependencies or installation required for this static prototype.
+Node 22 or newer. No package installation required. Lenis 1.3.27 is vendored locally with its MIT license for weighted desktop scrolling.
 
 ```sh
 npm run dev
@@ -22,7 +22,7 @@ npm run preview
 
 Development and preview default to http://127.0.0.1:8769. Set `PORT` if needed. Run only one server on that port at a time.
 
-`index.html`, `style.css`, `app.js` and `assets/` are the editable source. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
+`index.html`, `style.css`, `motion.css`, `app.js`, `motion.js` and `assets/` are the editable source. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
 
 ## Current scope
 
@@ -35,3 +35,7 @@ The retained `.openai/hosting.json` identifies the existing private Sites previe
 ## Assets
 
 Hanken Grotesk is self-hosted with its OFL license in `assets/`. The landscape was generated for this design study. The feather SVG is a prototype reconstruction of the selected concept; final optical refinement remains on the roadmap. No license for the entire repository is implied by the included font license.
+
+## Motion
+
+Fixed glass navigation contracts on scroll; a sliding indicator follows the active section. Desktop wheel scrolling uses locally vendored Lenis (lerp 0.065, multiplier 0.85). Hero imagery moves subtly with scrolling, content enters with long eased reveals, and the example panel settles into place. Touch uses native scrolling. Reduced-motion changes disable smoothing/parallax/reveals; opening the enquiry dialog stops background smoothing. All content remains visible without motion JavaScript.

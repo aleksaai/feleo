@@ -10,7 +10,7 @@ Read HANDOFF.md, PLAN.md and docs/BRAND.md before continuing. This repository is
 - OpenPenguin Voice is a separate software repository; do not migrate or modify it through this marketing project without explicit scope.
 
 ## Implementation
-- Current code is dependency-free HTML/CSS/JS. Edit root sources and assets, run npm run check and npm run build. Never hand-edit dist.
+- Current code is static HTML/CSS/JS with self-hosted Lenis 1.3.27; no npm install required. Edit root sources and assets, run npm run check and npm run build. Never hand-edit dist.
 - No secrets or private GTM dossiers in the repository. Keep third-party font license files.
 - Test responsive layouts at 1440, 390 and 320px and check the primary interaction after changes.
 - Keep example conversations labelled illustrative. No fake live-call, booking or submission confirmations.
@@ -20,3 +20,6 @@ Read HANDOFF.md, PLAN.md and docs/BRAND.md before continuing. This repository is
 
 ## Working style
 Aleksa builds with coding agents; preparation should not be blocked on extensive partner meetings. Debóra will qualify/call leads and arrange appointments; Ákos handles Hungarian consultations and later delivery. Bring them in for focused copy and funnel handoff checks near launch. Do not assume an existing network or Fanni as a pilot customer.
+
+## Motion implementation
+`motion.css` and `motion.js` own the scroll/navigation choreography; `style.css` and `app.js` remain the base layout and business interactions. Build copies both motion files. Preserve native touch, no-JS content visibility, reduced-motion support and modal scroll locking. Keep the vendored Lenis MIT notice. Verify real wheel/anchor behavior, not screenshots alone.
