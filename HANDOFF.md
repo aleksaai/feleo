@@ -17,3 +17,7 @@ Current interactions: sector conversation tabs, replay, mobile nav, local enquir
 Next: Phase 1/2 in PLAN.md — reusable page/locale structure, Hanken polish and real sector landing pages. HVAC first, then dental and accounting. Backend providers are not selected; do not invent live calendar/CRM endpoints. Get partner feedback at the point copy/funnel is reviewable, not as a gate before development.
 
 GitHub is the development source of truth. The old Downloads checkout is used only for the retained Sites publication mirror; sync from GitHub source to it, never make independent changes there. Publishing directions and exact Site ID are in docs/PUBLISHING.md.
+
+Validation: npm run check/build passed; desktop 1440px and mobile 390/320px verified with no horizontal overflow or browser errors. Verified Hanken computed font, absence of the font selector, FAQ expansion, sector tabs, mobile menu and local enquiry preview/Escape close.
+
+Repository access on this machine: HTTPS clone/read works, but the saved HTTPS credential returned 403 for write to the new repository. Existing SSH access successfully pushed main. origin keeps HTTPS fetch and uses git@github.com:aleksaai/feleo.git as push URL.
