@@ -1,5 +1,14 @@
 # Feleo handoff
 
+## Session close — 2026-10-17
+
+- Current private preview: https://feleo-design-study.enneo.chatgpt.site/en/ (English); `/` is Hungarian. Latest website source on GitHub: `d59cd352e95f3687c37326c654be2ac3e5abb79e`.
+- Verified successful Sites publication: source `3e46c25fc254e9a483836cda0e1dd79fdc9c15a7`, deployment `appgdep_6ad3dcbf0ccc8191bbe823af6e6ca429`, version `appgprj_6ad3bc9d780481919b8308c846d2d977~appgver_e91bcf04af54819196bafa2a70e0bb42`. GitHub and Sites source commits differ by design.
+- Approval state matters: Aleksa explicitly liked Hanken, sky blue, the clean hero and weighted scrolling. He rejected the first multi-page expansion. The latest image-led correction was published, but he has **not yet evaluated or approved it**; `/close` is not design approval. Resume by reviewing that revision with him rather than automatically restoring old sections or adding more copy.
+- Preserve: direct navigation, no invented software dashboard, concise copy, generated founder imagery based on supplied reference photos, labelled partner placeholders. Image briefs and provenance are in `docs/IMAGE-DIRECTION.md`.
+- Next after visual review: native HU/commercial review, actual lead delivery/CRM/booking, final legal/company information and production domain configuration. Private/noindex remains. No campaigns or production DNS were changed.
+- No persona was activated. No software-app changes were made in `aleksa-ai-app`; it was consulted read-only. Local preview servers were stopped. Temporary Sites credentials were not written into the repository.
+
 ## 2026-10-17 — Visual correction after owner feedback
 
 Owner rejected the generic/text-heavy expansion, software dropdown, invented interface preview and use of original photos. Implemented a shorter image-led homepage, direct What we do / Who we help / About navigation, a typographic voice/chat/automation section instead of fake UI, staggered industry photography, a new founder portrait panel, and image-led product/sector pages with expandable detail. About no longer uses the original Budapest event photo; project diagrams are removed from visual presentation. All 32 HU/EN routes remain.

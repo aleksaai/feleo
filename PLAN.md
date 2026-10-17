@@ -2,6 +2,8 @@
 
 Status: 2026-10-17. Source of truth: `aleksaai/feleo`.
 
+**Current checkpoint:** the owner approved the Hanken/sky-blue hero and motion, then rejected the first text-heavy multi-page expansion. The subsequent image-led revision is published privately and awaits his visual feedback. Do not treat the architecture checklist or session close as approval of the latest design. See the current HANDOFF.md entry before extending the site.
+
 ## Outcome
 
 A polished, Hungarian-first website on **feleo.ai** that explains the three agency offers, qualifies relevant enquiries, and helps visitors book a consultation. Feleo Voice is presented accurately as the software behind suitable services, with product readiness stated truthfully. The marketing site is separate from the existing OpenPenguin application.
