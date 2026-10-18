@@ -1,0 +1,11 @@
+# Static multi-page site: generated HTML and assets, not the repository root.
+[build]
+  base = "."
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Routes are generated as directories with index.html. No SPA catch-all:
+# unknown routes should use dist/404.html and return HTTP 404.
