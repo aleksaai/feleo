@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "node scripts/build.mjs && node scripts/serve.mjs dist",
-    "check": "node --check app.js && node --check motion.js && node --check src/content.mjs && node --check src/render.mjs && node --check scripts/build.mjs && node --check scripts/serve.mjs",
+    "check": "node --check app.js && node --check motion.js && node --check src/content.mjs && node --check src/render.mjs && node --check src/blue-home.mjs && node --check scripts/build.mjs && node --check scripts/serve.mjs",
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs dist"
   }

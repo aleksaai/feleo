@@ -1,4 +1,20 @@
+
+## Publication authorized — 2026-10-18
+
+Owner explicitly requested pushing the corrected blue website. This supersedes the local-only/no-push notes below. The approved publication scope restores the mountain hero, removes product demos and uses software-matched sky-blue buttons. Netlify automatically deploys main; Sites remains a separate publication mirror. Syntax check and 32-page build passed before push.
+
+## Owner correction — 2026-10-18 (current)
+
+The product-example preview was rejected. No product demos, simulated conversations or fake interfaces: the product is unfinished. Restored original mountain hero and its motion; removed workflow panels and tab JavaScript. Blue buttons now match the current local software theme: #1FB6FF, white text, 9px corners, subtle inset/drop shadow, white secondary controls; website touch-target height retained. Navigation/hero invite a consultation, not a product demo. The app source was read only and never modified. This supersedes the demo/tab and darker-action-blue descriptions below. Local preview only; no push/deployment.
 # Feleo handoff
+
+## Local blue product preview — 2026-10-18
+
+Owner approved creating a local homepage direction based on Superchat and restoring blue. `src/blue-home.mjs` replaces the homepage composition; `blue.css` is the final shared palette/control layer. White hero with blue headline, accessible solid-blue actions, keyboard-operable Voice/Chat/Workflow tabs with explicitly illustrative conversations, three industry photos, concise implementation steps, founder/attributed proof and approved landscape footer. Hanken and existing motion retained. No real software screenshots are claimed or customer software touched.
+
+Preview: http://127.0.0.1:8772/en/ (HU root). Run `PORT=8772 npm run dev` when server is stopped. Not pushed or deployed: main pushes now automatically deploy to Netlify. The prior neutral website remains live. Native Hungarian review, actual product captures, lead delivery and final legal content are still pending. Latest local revision awaits owner feedback.
+
+Verification: syntax/build passed, 32 local routes returned HTTP 200; 1440/390/320px checks found no horizontal overflow. Browser verified tab click/arrow-key selection, mobile menu, HU/EN switching, demo link to the local enquiry page and industry anchor/compacting header. No console errors observed. Actual product captures remain a separate follow-up; the local homepage uses labelled workflow illustrations.
 
 ## Session close — 2026-10-18
 

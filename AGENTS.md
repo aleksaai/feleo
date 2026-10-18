@@ -1,4 +1,15 @@
+
+## Publication authorized — 2026-10-18
+
+Owner explicitly requested pushing the corrected blue website. Earlier local-only/no-push instructions are superseded for this publication. Netlify auto-deploys main. Current design: restored mountain hero, no product demos, software-matched sky-blue controls.
+
+## Owner correction — 2026-10-18 (current)
+
+The product-example preview was rejected. No product demos, simulated conversations or fake interfaces: the product is unfinished. Restored original mountain hero and its motion; removed workflow panels and tab JavaScript. Blue buttons now match the current local software theme: #1FB6FF, white text, 9px corners, subtle inset/drop shadow, white secondary controls; website touch-target height retained. Navigation/hero invite a consultation, not a product demo. The app source was read only and never modified. This supersedes the demo/tab and darker-action-blue descriptions below. Local preview only; no push/deployment.
 # Feleo project instructions
+
+## Latest direction — Blue product preview, 2026-10-18
+Owner explicitly requested returning to blue with Superchat-inspired product clarity. This supersedes the Neutral Glass palette instructions below. Local review only: do not push main (Netlify auto-publishes) or deploy until requested. `src/blue-home.mjs` and final `blue.css` provide bilingual homepage, labelled illustrative workflow tabs, pale-blue surfaces and accessible deeper-blue actions. Hanken, subtle glass header, weighted scrolling, film photos, generated founder portrait and landscape footer remain. Workflow illustrations are not actual product screenshots; no live provider connections. App/customer software remains untouched. Native Hungarian review and visual acceptance remain open.
 
 Read HANDOFF.md, PLAN.md and docs/BRAND.md before continuing. This repository is the source of truth; the old Downloads prototype is a historical/publication working copy, not a second development branch.
 

@@ -1,4 +1,10 @@
-> Button correction (18 Oct): Neutral Glass applies to the surrounding interface, not action controls. Buttons now use opaque white, fine neutral borders, consistent sizing and no bevel/blur/glow. See buttons.css.
+
+## Owner correction — 2026-10-18 (current)
+
+The product-example preview was rejected. No product demos, simulated conversations or fake interfaces: the product is unfinished. Restored original mountain hero and its motion; removed workflow panels and tab JavaScript. Blue buttons now match the current local software theme: #1FB6FF, white text, 9px corners, subtle inset/drop shadow, white secondary controls; website touch-target height retained. Navigation/hero invite a consultation, not a product demo. The app source was read only and never modified. This supersedes the demo/tab and darker-action-blue descriptions below. Local preview only; no push/deployment.
+> Latest owner direction (18 Oct): return to blue with a Superchat-inspired product presentation. Local preview uses sky-blue feather #1FB6FF, white/pale-blue surfaces, readable action blue #0075BD, Hanken and restrained glass navigation. This supersedes the neutral-only palette below. Final override: blue.css. Visual approval pending; not deployed.
+
+> Earlier button correction (18 Oct): Neutral Glass applies to the surrounding interface, not action controls. Buttons use consistent sizing and no bevel/blur/glow.
 
 > Current decision, 18 Oct 2026: **Neutral Glass** supersedes the earlier sky-blue/warm-paper palette. Pure white #FFFFFF, ink #202328, secondary #565B63, silver-gray translucent interface surfaces. Monochrome feather, broad frosted header and **opaque white action buttons**. Imagery retains natural color. Hanken, film imagery, motion and landscape footer remain. Earlier dated sections below are history.
 
