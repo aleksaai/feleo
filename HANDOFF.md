@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## 2026-10-18 — Neutral Glass selected and implemented
+
+Owner rejected the warm paper/blue mix and loss of liquid glass. Shown three image comparisons; explicitly selected **Neutral Glass**. Applied to the existing website (no replacement of imagery/layout): pure white canvas, monochrome dark feather/favicon, silver translucent CTA buttons, broad frosted glass header, neutralized service/founder/pilot/form surfaces. Founder panel lightly overlaps its image to make the glass material legible. Reduced-transparency and forced-colors fallbacks included. Hanken, film images, motion and landscape footer preserved. Original blue SVG remains available but not used as current favicon.
+
+Implementation lives in the final Neutral Glass block of enterprise.css. Source/build checks passed; desktop visual and anchor navigation checked in the in-app browser. Existing app/customer infrastructure untouched. Latest rendered site still needs owner's visual evaluation; the direction itself was selected.
+
 ## 2026-10-18 — Enterprise visual direction
 
 Owner explicitly asked to move beyond a small-business/studio appearance and approved implementation. Added enterprise.css as final shared layer: full-width neutral header contracts vertically on scroll; direct AI Agents/Industries/Implementation/Company navigation; rectangular restrained buttons, smaller radii, neutral ink/paper surfaces and subdued hero landscape. Hero now clearly states voice/chat agent purpose in HU/EN. Founder copy describes the real three-person responsibilities rather than "I build it". Existing Hanken, logo, film imagery, slow scroll and landscape footer remain. Also restored the missing #platform anchor on the shared service section.

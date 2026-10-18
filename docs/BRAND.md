@@ -1,3 +1,5 @@
+> Current decision, 18 Oct 2026: **Neutral Glass** supersedes the earlier sky-blue/warm-paper palette. Pure white #FFFFFF, ink #202328, secondary #565B63, silver-gray translucent materials. Monochrome feather, glass CTA buttons and broad frosted header. Imagery retains natural color. Hanken, film imagery, motion and landscape footer remain. Earlier dated sections below are history.
+
 # Working brand direction
 
 Selected by Aleksa on 2026-10-17. This is a working system, not a claim of trademark clearance.

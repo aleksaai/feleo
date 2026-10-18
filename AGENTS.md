@@ -5,7 +5,7 @@ Read HANDOFF.md, PLAN.md and docs/BRAND.md before continuing. This repository is
 ## Product and brand
 - One brand/domain: Feleo / feleo.ai. Feleo Voice is the software product name.
 - Current preference: **Hanken Grotesk only**. Keep all text in Hanken; do not reintroduce serif headings or a public font selector without the owner's request.
-- Sky blue #1FB6FF, near-white blue #F4FAFF, dark ink. Two-part feather icon. Retain spacious design and subtle glass navigation; avoid generic dashboard decoration and fabricated testimonials.
+- Current palette: **Neutral Glass** (selected 18 Oct). Pure white, neutral silver/gray glass, dark ink, monochrome feather. Original sky-blue system is superseded; color may come from imagery. Keep broad glass navigation and translucent silver actions; no yellow paper tones or solid dark CTA blocks.
 - Three audiences: larger private dental clinics, HVAC/building services, staffed accounting offices. The agency pilot offers differ; do not describe all three as the same voice product.
 - OpenPenguin Voice is a separate software repository; do not migrate or modify it through this marketing project without explicit scope.
 
@@ -32,3 +32,6 @@ The owner rejected text-heavy repetitive sections, the software dropdown and inv
 
 ## Enterprise direction — 2026-10-18
 Owner authorized a more serious software-company presentation inspired by Parloa: broad full-width header (no pill), direct AI Agents / Industries / Implementation / Company links, neutral off-white/charcoal base, blue as accent, smaller radii and a concrete voice/chat hero. enterprise.css is the final override layer. Hanken, feather, film imagery, weighted scrolling and approved landscape footer remain. Founder text explains actual team responsibilities without inflating company size. This supersedes the earlier instruction to preserve the old hero wording/header shape. Current revision awaits visual review.
+
+## Neutral Glass selected — 2026-10-18
+Owner chose option 02 after a three-way visual comparison. Final section of enterprise.css implements neutral white/silver glass surfaces, dark logo on light surfaces, clear frosted header and silver translucent buttons. Favicon is assets/feather-neutral.svg. Keep Hanken, site structure, film images, weighted scrolling and approved landscape footer. No return to blue branding, yellow paper or opaque dark buttons without request. Reduced-transparency/forced-colors fallbacks are included.
