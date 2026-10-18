@@ -1,5 +1,20 @@
 # Feleo handoff
 
+## Session close — 2026-10-18
+
+Current website source: `4e33f1a` (homepage hierarchy cleanup). Private preview: https://feleo-design-study.enneo.chatgpt.site/en/; Hungarian at `/`. Successful Sites deployment `appgdep_6ad412b76c78819197221050c5bbef7a`, publication source `8c1ee2159b5530314a130d05de4747ed18fcd935`, version `appgprj_6ad3bc9d780481919b8308c846d2d977~appgver_1f78ea11af6081919c811c760a49e8eb`.
+
+Current decisions in order of precedence:
+- Hanken retained. **Neutral Glass** selected by owner: white/neutral surfaces and monochrome logo. Original blue and warm-paper directions are historical, not current defaults.
+- Owner subsequently rejected glass action buttons. **Solid white controls**, fine border, no blur/bevel/glow; desktop header/hero actions verified at 216×48px. Glass remains in surrounding interface surfaces. See buttons.css.
+- Film-like nostalgic sector imagery replaced pristine still lifes; generated founder portrait and landscape footer retained. Originals remain archived only.
+- Latest cleanup removes decorative eyebrows, scroll cue, Budapest hero caption and orphan reference banner. Homepage sequence: hero → clear services → aligned industries → team with attributed quote → contact → footer landscape. Common structure.css governs width/spacing/headings. Do not restore these removed elements to make the page feel "richer".
+- The owner said the direction was improving, then requested cleanup. The **latest cleanup has been published but not yet reviewed/approved by him**. Session close is not visual approval.
+
+Next website session: open the current preview and obtain targeted feedback on the unified page structure before another broad redesign. Lead delivery/booking remain disconnected; native Hungarian and legal/commercial review still pending. No claim of mobile QA for the latest refinements: recent verification was source/build and desktop browser checks. Earlier 32-route responsive checks predate these changes.
+
+Runtime customer software was not edited or deployed in this website session. A separate software session is active; do not overwrite its working changes or assume the earlier isolation-planning notes describe its latest state. Development preview server from this session was stopped; use the hosted preview or npm run dev.
+
 ## 2026-10-18 — Homepage hierarchy and content cleanup
 
 Owner wanted unnecessary labels/captions removed and clearer, consistent section structure. Removed hero eyebrow, Make Room for More scroll cue, Budapest/international caption and orphan previous-client banner. Replaced service slogans with clear Voice/Chat/Implementation names plus one explanatory sentence. Industries now have equal top alignment and clear sector names instead of small numbered labels. Testimonial integrated with founder/team context, with attribution preserved; separate homepage quote block removed. Shared closing reduced to heading + action. Footer contact link now has an actual localized label (previously empty).
