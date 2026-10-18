@@ -28,3 +28,11 @@ Generated images are used as illustrative brand assets. The About page identifie
 Output: `assets/editorial/feleo-horizon.png`, generated with the built-in image tool. New original composition prompted from the user's desired spacious landscape-footer direction, not a copy of Superchat's image.
 
 Prompt: Original panoramic footer landscape for a refined sky-blue AI brand. Clean almost-white upper sky fading into pale blue; lower portion a serene imagined near-future European riverside landscape with a calm winding river, pale-green meadows, sparse trees, soft blue hills, a few small sculptural white buildings and a delicate pedestrian bridge. Wildflowers and warm sunlight in foreground. Airy cinematic architectural visualization with photorealistic materials, subdued greens and icy blue. No text, logos, UI, dense skyscrapers, spacecraft or close-up people. Decorative imagined place, not a claimed real location. The `feleo` lettering is separate selectable HTML, not generated in the bitmap.
+
+## Film-inspired sector imagery — 2026-10-18
+
+Owner requested nostalgic, softly blurred imagery after reviewing Parloa. New non-destructive assets: assets/editorial/dental-film.png, hvac-film.png, accounting-film.png. Original sector images retained but no longer referenced. Founder portrait and approved landscape footer unchanged. Generated using the built-in image tool.
+
+Shared prompt: portrait 4:5 editorial photography, nostalgic 35mm film, selective focus and photographic motion blur, visible fine grain, halation, lifted blacks, faded low-contrast tones, warm ivory light balanced with muted sky-blue. Candid human working moments; no HDR, CGI, text, logos, UI or actual client-location claim.
+
+Dental: a passing visitor in a pale-blue shirt, blurred in the foreground of a softly lit clinic reception, receptionist out of focus. HVAC: anonymous technician from behind walking to a service van with tool bag, late-afternoon light and gentle panning blur. Accounting: moving hands sorting papers beside an open unbranded laptop in morning light, no readable client information.

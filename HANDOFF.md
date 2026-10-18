@@ -1,5 +1,9 @@
 # Feleo handoff
 
+## 2026-10-18 — Nostalgic sector-image update
+
+Owner requested film-like, softly blurred, nostalgic editorial imagery inspired by Parloa. Replaced three sector image references on homepage and detail pages with new *-film.png assets (clinic reception, technician approaching van, accounting hands/papers/laptop). Generated with built-in image tool; original image versions retained. Founder portrait, hero, footer, layout and software runtime untouched. Prompt briefs in docs/IMAGE-DIRECTION.md.
+
 ## Owner approval and software handoff — 2026-10-17
 
 Aleksa explicitly approved the new open CTA, landscape footer and large pale lettering, and expressed satisfaction with this implementation. Preserve it. Website code `2432a4eb2599cc4ffd639f233d539382e25df9f4` is published privately; Sites source `3b99d09c8603fb781ca58ad76822b96c9c1813bc`, successful deployment `appgdep_6ad3e316d59c81918e28291d9fad0e34`. Earlier "awaiting reaction" notes below describe prior checkpoints. This visual approval does not make the draft forms/legal pages production-ready.
