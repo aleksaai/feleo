@@ -1,3 +1,5 @@
+> Cleanup, 18 Oct: current homepage sequence is Hero → Services → Industries → Team with attributed prior-work quote → Contact → Footer. Decorative eyebrows, scroll/Budapest captions and the proof ribbon after hero have been removed. Section geometry is unified in structure.css. Previous longer sequences below are historical design planning.
+
 > Latest revision: the owner rejected the text-heavy expansion, software dropdowns, fake UI preview and direct use of original photos. Current navigation is What we do / Who we help / About. The homepage uses short typographic service links, sector imagery and an AI-generated founder portrait. Product detail lives in image-led disclosures. Original plan below is retained as architectural history, not the current visual specification. See IMAGE-DIRECTION.md and HANDOFF.md.
 
 # Website architecture — 17 October 2026

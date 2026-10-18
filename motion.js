@@ -77,7 +77,7 @@
           observer.unobserve(entry.target);
         }
       }), {threshold:.06,rootMargin:'0px 0px -35px 0px'});
-      document.querySelectorAll('.intro .section-label,.intro-copy,.capabilities article,.convo-copy,.conversation-stage,.approach-heading,.steps li,.faq>div,.closing h2,.closing>.button,.section-heading,.product-demo,.industry-links>a,.implementation-band>div,.quote-section blockquote,.founder-image,.founder-copy,.team-grid article,.place-section>div,.project-list>article,.price-grid article,.policy-copy article,.page-hero>div,.related>div,.agent-lines>a,.visual-section-heading,.industry-photo,.founder-editorial-image,.founder-editorial-copy,.detail-photograph,.detail-copy').forEach((el,i) => {
+      document.querySelectorAll('.intro .section-label,.intro-copy,.capabilities article,.convo-copy,.conversation-stage,.approach-heading,.steps li,.faq>div,.closing h2,.closing>.button,.section-heading,.product-demo,.industry-links>a,.implementation-band>div,.quote-section blockquote,.founder-image,.founder-copy,.team-grid article,.place-section>div,.project-list>article,.price-grid article,.policy-copy article,.page-hero>div,.related>div,.agent-lines>a,.visual-section-heading,.industry-photo,.founder-editorial-image,.founder-editorial-copy,.detail-photograph,.detail-copy,.service-rows>a,.agent-editorial>h2').forEach((el,i) => {
         el.dataset.reveal = '';
         el.style.setProperty('--reveal-delay',`${el.matches('.capabilities article') ? (i % 3)*70 : 0}ms`);
         if (el.getBoundingClientRect().top > innerHeight) el.classList.add('reveal-pending');

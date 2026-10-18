@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## 2026-10-18 — Homepage hierarchy and content cleanup
+
+Owner wanted unnecessary labels/captions removed and clearer, consistent section structure. Removed hero eyebrow, Make Room for More scroll cue, Budapest/international caption and orphan previous-client banner. Replaced service slogans with clear Voice/Chat/Implementation names plus one explanatory sentence. Industries now have equal top alignment and clear sector names instead of small numbered labels. Testimonial integrated with founder/team context, with attribution preserved; separate homepage quote block removed. Shared closing reduced to heading + action. Footer contact link now has an actual localized label (previously empty).
+
+New structure.css establishes common content width, section gaps, heading scale and alignments. Images, palette, header glass, buttons, scroll and footer scenery retained. Build/syntax passed; homepage structure, working industry anchor and equal industry card geometry inspected in browser. No changes to production customer software.
+
 ## 2026-10-18 — Clean action controls
 
 Owner rejected the glass-button appearance, transparency, inconsistent sizing and generic styling. Added buttons.css as the final action system: solid white, fine neutral border, no blur/gradient/shadow, consistent 48px desktop height and 14px Hanken, aligned 16px SVG arrows. Hero actions now equal 216px width. Secondary action is a restrained outlined variant; mobile header uses explicit compact 44px control. Glass remains in header and surrounding surfaces. Existing links/form behavior preserved. Desktop computed styles and links checked; build passes.

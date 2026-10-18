@@ -38,3 +38,6 @@ Owner chose option 02 after a three-way visual comparison. Final section of ente
 
 ## Buttons — 2026-10-18 correction
 Owner rejected translucent bevelled glass buttons and inconsistent sizes. buttons.css is the final action-style layer: opaque white fill, restrained 1px neutral border, 6px radius, 48px desktop actions, 14px Hanken 500, unified 16px SVG arrow, equal 216px hero actions; compact mobile header is 44px tall. No gradients, blur, inner shadows, hover lift or glowing borders on buttons. Neutral Glass remains on surrounding header/image surfaces.
+
+## Content and structure cleanup — 2026-10-18
+Owner rejects decorative micro-labels, slogans without informational value, hero scroll/Budapest captions, orphan proof banners and inconsistent section styling. Homepage flow is hero → services → industries → team with attributed proof → contact. No hero eyebrow or bottom captions; no client-name ribbon immediately after hero. Services use concrete names and one useful sentence, no arbitrary numbering. Industry images align at the top. Shared width/spacing/heading rules live in structure.css (final layer). Retain useful names/roles, attribution and preview limitations; do not remove meaningful information indiscriminately.
