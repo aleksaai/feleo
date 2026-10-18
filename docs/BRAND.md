@@ -27,3 +27,5 @@ Motion direction (17 Oct): deliberate, weighted desktop movement; a compacting g
 Latest imagery/content direction: photographs supplied by Aleksa are identity references for generated on-brand portraits. Do not reinsert original selfies as website photography. Keep homepage copy sparse, eliminate fake software interfaces and dropdowns, and use purposeful image-led sections with content depth on the relevant pages.
 
 Footer direction: owner rejected the boxed blue CTA. Use an open two-column invitation followed by footer links and an atmospheric landscape sign-off, with oversized pale Hanken `feleo` lettering. The landscape is original generated decorative art.
+
+Enterprise revision, 18 Oct 2026: neutral #FAFAF8 canvas and #24292C ink; sky blue remains on the logo/selected accents. Broad full-width compacting header, 4–6px action/image radii, concrete AI-agent hero, direct navigation. This user-approved implementation direction supersedes the earlier pill-nav/blue-surface emphasis; final visual acceptance still pending. enterprise.css owns these refinements.

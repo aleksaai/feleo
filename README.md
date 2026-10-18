@@ -22,7 +22,7 @@ npm run preview
 
 Development builds once before serving; after source edits rerun `npm run build` and refresh the page. Development and preview default to http://127.0.0.1:8769. Set `PORT` if needed. Run only one server on that port at a time.
 
-`src/content.mjs` holds the bilingual copy and route map; `src/render.mjs` generates shared layouts and pages. `style.css`, `motion.css`, `pages.css`, `editorial.css`, `app.js`, `motion.js` and `assets/` hold the presentation and interactions. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
+`src/content.mjs` holds the bilingual copy and route map; `src/render.mjs` generates shared layouts and pages. `style.css`, `motion.css`, `pages.css`, `editorial.css`, `enterprise.css`, `app.js`, `motion.js` and `assets/` hold the presentation and interactions. `npm run build` produces `dist/`; never edit the generated directory. CI checks JavaScript syntax and builds the site. It does not deploy it.
 
 ## Current scope
 

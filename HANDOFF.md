@@ -1,5 +1,11 @@
 # Feleo handoff
 
+## 2026-10-18 — Enterprise visual direction
+
+Owner explicitly asked to move beyond a small-business/studio appearance and approved implementation. Added enterprise.css as final shared layer: full-width neutral header contracts vertically on scroll; direct AI Agents/Industries/Implementation/Company navigation; rectangular restrained buttons, smaller radii, neutral ink/paper surfaces and subdued hero landscape. Hero now clearly states voice/chat agent purpose in HU/EN. Founder copy describes the real three-person responsibilities rather than "I build it". Existing Hanken, logo, film imagery, slow scroll and landscape footer remain. Also restored the missing #platform anchor on the shared service section.
+
+Build/syntax passed; desktop render, software nav and localized paths inspected. No production software/customer resources touched. Review this visual direction before further design expansion.
+
 ## 2026-10-18 — Nostalgic sector-image update
 
 Owner requested film-like, softly blurred, nostalgic editorial imagery inspired by Parloa. Replaced three sector image references on homepage and detail pages with new *-film.png assets (clinic reception, technician approaching van, accounting hands/papers/laptop). Generated with built-in image tool; original image versions retained. Founder portrait, hero, footer, layout and software runtime untouched. Prompt briefs in docs/IMAGE-DIRECTION.md.

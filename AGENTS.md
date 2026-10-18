@@ -29,3 +29,6 @@ The build generates 16 page types in HU/EN (32 routes). Root is Hungarian; /en/ 
 
 ## Latest design correction
 The owner rejected text-heavy repetitive sections, the software dropdown and invented software UI previews. Keep direct top navigation (What we do / Who we help / About), no dropdowns or fake product dashboard. Homepage is concise and image-led; product/industry detail is progressively disclosed. editorial.css owns this art-directed revision. Preserve the approved hero/motion. Use generated portrait and sector imagery from assets/people/aleksa-editorial-ai.png and assets/editorial/, with provenance in docs/IMAGE-DIRECTION.md.
+
+## Enterprise direction — 2026-10-18
+Owner authorized a more serious software-company presentation inspired by Parloa: broad full-width header (no pill), direct AI Agents / Industries / Implementation / Company links, neutral off-white/charcoal base, blue as accent, smaller radii and a concrete voice/chat hero. enterprise.css is the final override layer. Hanken, feather, film imagery, weighted scrolling and approved landscape footer remain. Founder text explains actual team responsibilities without inflating company size. This supersedes the earlier instruction to preserve the old hero wording/header shape. Current revision awaits visual review.
