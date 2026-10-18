@@ -1,3 +1,25 @@
+## Session close — 2026-10-18, final state
+
+Close explicitly authorizes saving and pushing the latest frontend changes; Netlify auto-publishes main. Current public host: https://feleo-ai.netlify.app/en/ (HU root). The separate private Sites mirror remains at its earlier version and was not republished. Earlier local-only and neutral-design notes below are historical.
+
+Current design: sky-blue feather and buttons with WHITE text, software-matched material, Hanken, restored mountain hero, weighted motion, film imagery and landscape footer. No product demos. Solutions page includes the actual AgentBubble shader adapted from the local app, shown as an illustrative Nóra identity. Frontend offer/contact improvements are included. Owner explicitly deferred real enquiry delivery and booking: do not connect backend services without a new request. Native Hungarian/legal review and visual acceptance of recent additions remain open.
+
+Research references: Avoca for vertical implementation, Smith.ai for software plus managed services, Emitrr for dental communication, moinAI for supported onboarding. Fonio/Superchat audit drove the concrete industry descriptions, pilot/pricing visibility, FAQ and compact contact page. Screenshots/report remain in Downloads/Feleo-branding/site-review/. No claim that competitor results were independently verified.
+
+Product discussion: recommended a lightweight contact directory plus live API reads, not a full CRM and not API-only. Store minimal contact/communication/work-item data and external IDs; keep medical/accounting/contracts in their source systems, verify fresh data for sensitive actions. Contact matching is not authentication. This is a recommendation awaiting owner decision, not an implemented or approved app architecture. Existing customer production, including Beauty Lounge, was untouched.
+
+Feature/use-case list delivered to Downloads/Feleo-Software-Features-und-Use-Cases.md. It describes target scope, not shipped capabilities. A durable copy is saved with the team handoff. No persona active in this session.
+
+## Agent identity and button correction — 18 October 2026
+
+Owner explicitly requires white text inside blue buttons, matching the software. This supersedes the prior dark-text contrast adjustment. Reused the actual local app AgentBubble shader and material for a labelled Nóra assistant identity on the Solutions page, not a product demo. Static fallback, reduced motion and visibility-aware animation included. No software files, customer data or providers changed. Latest website edits remain local and unpublished.
+
+
+## Frontend conversion improvements — 2026-10-18
+
+Owner authorized implementing the Fonio/Superchat research findings, then explicitly deferred enquiry delivery and booking: frontend only. Local revision retains hero image, Hanken, glass, blue and all existing routes; adds concrete industry captions, direct Solutions/Industries/How we work/Pilots & pricing/About navigation, honest solutions overview, visible industry pilot scope and pricing links, precise implementation copy, integration explanation, five buying FAQs and context for the existing attributed SYSTEMLINE quote. Contact page now presents explanation beside the form, with no redundant self-link hero. Mobile form precedes secondary team detail. Industry CTAs preselect the relevant form option, preview/edit remains local and explicitly unsent. Public-preview wording corrected; no backend/CRM/booking/app changes.
+
+Primary website button text now uses dark ink on the same sky-blue fill for contrast; app code was not changed. Native Hungarian review and visual acceptance remain open. Syntax/build and all 32 local routes passed; browser verified 1440/390/320 layouts, mobile pricing navigation, sector preselection and local form preview. Not pushed/deployed in this turn; preview remains http://127.0.0.1:8772/en/.
 
 ## Publication authorized — 2026-10-18
 

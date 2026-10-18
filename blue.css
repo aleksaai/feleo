@@ -26,3 +26,39 @@ body[data-page=home] .horizon-wordmark{color:#e1f4ff}
 @media(max-width:800px){.blue-implementation{grid-template-columns:1fr;gap:36px}}
 @media(max-width:700px){body[data-page=home] .hero{margin-bottom:64px}body .hero-actions>.button{width:auto;min-width:190px;justify-content:center}.blue-industries .visual-industries{padding-bottom:65px}.blue-industries .visual-section-heading{text-align:left}.blue-implementation{padding:30px 24px;margin:0 16px 65px}.blue-implementation h2{font-size:34px}.blue-implementation>div>p{font-size:15px}.blue-implementation strong{font-size:16px}body[data-page=home] .founder-editorial-image{height:auto}body[data-page=home] .founder-editorial-copy h2{font-size:34px}body[data-page=home] .closing.closing-invitation{padding-top:40px;padding-bottom:45px}}
 @media(forced-colors:active){body .button,body .button.dark{background:ButtonFace!important;color:ButtonText!important;border:1px solid ButtonText!important;box-shadow:none!important}}
+
+/* Offer clarity and consultation frontend, 18 October. */
+.nav-links{gap:12px}
+.pilot-scope{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin:28px 0 20px;max-width:920px}
+.pilot-scope h3{font-size:17px;font-weight:600;line-height:1.4;margin:0 0 12px}
+.pilot-scope p,.pilot-next{font-size:16px;line-height:1.65;color:var(--body);margin:0}
+.pilot-next{max-width:780px;margin-bottom:18px}.pilot-price-link{margin-bottom:24px;font-size:14px}
+.experience-context{margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.experience-context strong{font-size:15px;font-weight:600}.experience-context p{font-size:15px;line-height:1.6;color:var(--body);margin:10px 0 14px}.experience-context .text-link{font-size:14px}
+.founder-proof{margin-top:23px;border:0;padding-top:0}
+.connection-note{max-width:1120px;margin:0 auto 90px;padding:0 0 38px;border-bottom:1px solid var(--line);display:flex;align-items:end;gap:55px;justify-content:space-between}
+.connection-note h2{font-size:32px;font-weight:450;letter-spacing:-1px;line-height:1.2;margin:0 0 18px}
+.connection-note p{font-size:16px;color:var(--body);line-height:1.65;max-width:650px;margin:0}.connection-note>.text-link{font-size:14px;white-space:nowrap}
+body[data-page=home] .faq{max-width:1208px;margin:auto;padding:0 44px 90px;gap:70px}body[data-page=home] .faq h2{font-size:42px;line-height:1.15;letter-spacing:-1.5px;margin:0}
+body[data-page=home] .faq summary{font-size:17px;padding-right:30px}body[data-page=home] .faq details p{font-size:15px}
+body .consultation-layout{max-width:1208px;margin:0 auto;padding:160px 44px 90px;display:grid;grid-template-columns:.95fr 1.05fr;gap:75px;align-items:start}
+.consultation-layout h1{font-size:clamp(38px,4vw,55px);font-weight:450;letter-spacing:-2px;line-height:1.08;margin:0 0 24px}
+.consultation-layout aside{max-width:none}.consultation-layout aside>p{max-width:none}.consultation-layout h1 br{display:none}
+.solution-readiness{max-width:1208px;margin:auto;padding-top:0;padding-bottom:80px}.solution-readiness h2{font-size:36px;font-weight:450;letter-spacing:-1px;line-height:1.2}.solution-readiness p{max-width:700px;font-size:16px;color:var(--body);line-height:1.65}
+.consultation-layout .consultation-intro{font-size:17px;line-height:1.65;color:var(--body);margin:0 0 26px}
+.consultation-points{list-style:none;padding:0;margin:0 0 36px}.consultation-points li{font-size:15px;line-height:1.55;padding:10px 0 10px 22px;position:relative}.consultation-points li:before{content:'✓';position:absolute;left:0;color:#087caf}
+.consultation-team{display:flex;align-items:center;gap:17px;padding-top:24px;border-top:1px solid var(--line)}
+.consultation-team .contact-portrait{width:64px;height:64px;flex-shrink:0;margin:0;object-fit:cover;border-radius:50%}
+.consultation-team strong{font-size:15px;font-weight:600}.consultation-team p{font-size:13px;line-height:1.6;color:var(--body);margin:6px 0 0}
+.preview-notice{font-size:13px!important;line-height:1.55!important;color:#5c6770!important;margin:24px 0 0!important}
+.consultation-layout .enquiry-panel{padding:30px;background:#f7fbfe;border:1px solid #e2edf3;box-shadow:none;backdrop-filter:none;border-radius:12px}
+.consultation-layout input,.consultation-layout select,.consultation-layout textarea{background:#fff;border:1px solid #cbd8df;box-shadow:none;border-radius:7px;padding:11px 12px;min-width:0;font-size:15px}
+.consultation-layout label{font-size:13px;line-height:1.5;color:var(--ink)}
+.consultation-layout form{gap:18px}.consultation-layout .form-pair{gap:16px}.consultation-layout .small-note,.consultation-layout form>small{font-size:12px;line-height:1.55;color:#5c6770}
+.consultation-layout input:focus-visible,.consultation-layout select:focus-visible,.consultation-layout textarea:focus-visible{outline:2px solid #087caf;outline-offset:2px}
+/* Owner-selected software button style: always white text on sky blue. */
+body .button.dark,body .nav .nav-cta,body .is-scrolled .nav .nav-cta,body .hero-actions>.button.dark,body .closing-actions .button,body .page-hero .button,body .button.dark:hover,body .nav .nav-cta:hover,body .hero-actions>.button.dark:hover,body .closing-actions .button:hover{color:#fff}
+@media(max-width:1200px){.connection-note{margin-left:30px;margin-right:30px}.nav-links{gap:2px}.nav-links>[data-nav]{padding-left:9px;padding-right:9px}}
+@media(max-width:950px){body .consultation-layout{gap:35px;padding-left:30px;padding-right:30px}.connection-note{display:block}.connection-note>.text-link{margin-top:22px}.consultation-layout .form-pair{grid-template-columns:1fr}.nav-links{gap:4px}}
+@media(max-width:700px){body .consultation-layout{grid-template-columns:1fr;padding:120px 22px 60px;gap:32px}.consultation-layout h1{font-size:38px;letter-spacing:-1.4px}.consultation-layout .consultation-intro{font-size:15px}.consultation-points{margin-bottom:20px}.consultation-team{padding-top:20px}.consultation-layout .enquiry-panel{padding:22px}.pilot-scope{grid-template-columns:1fr;gap:24px}.pilot-scope p,.pilot-next{font-size:15px}.connection-note{margin:0 25px 60px;padding-bottom:30px}.connection-note h2{font-size:29px}.connection-note p{font-size:15px}body[data-page=home] .faq{padding:0 25px 60px;gap:28px}body[data-page=home] .faq h2{font-size:34px}.nav-links>[data-nav]{padding:13px 15px}}
+@media(max-width:700px){body .consultation-layout{gap:22px}.consultation-layout aside{display:contents}.consultation-layout h1{order:0;margin:0}.consultation-layout .consultation-intro{order:1;margin:0}.consultation-layout .preview-notice{order:2;margin:0!important}.consultation-layout .enquiry-panel{order:3}.consultation-layout .consultation-points{order:4;margin:0}.consultation-layout .consultation-team{order:5}}

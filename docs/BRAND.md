@@ -1,3 +1,7 @@
+## Agent identity and button correction — 18 October 2026
+
+Owner explicitly requires white text inside blue buttons, matching the software. This supersedes the prior dark-text contrast adjustment. Reused the actual local app AgentBubble shader and material for a labelled Nóra assistant identity on the Solutions page, not a product demo. Static fallback, reduced motion and visibility-aware animation included. No software files, customer data or providers changed. Latest website edits remain local and unpublished.
+
 
 ## Owner correction — 2026-10-18 (current)
 

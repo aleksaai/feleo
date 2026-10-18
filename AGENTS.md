@@ -1,3 +1,15 @@
+## Session close — 2026-10-18
+
+Latest close authorizes pushing the current frontend to main (Netlify auto-deploy). Earlier local-only notes are superseded for this save. Preserve white text on sky-blue software-style buttons, mountain hero, and no product demos. Nóra's animated identity is on Solutions. Enquiry/booking backend is explicitly deferred by owner. Read the latest HANDOFF.md entry before historical notes below. Do not modify customer software or parallel app work.
+
+## Agent identity and button correction — 18 October 2026
+
+Owner explicitly requires white text inside blue buttons, matching the software. This supersedes the prior dark-text contrast adjustment. Reused the actual local app AgentBubble shader and material for a labelled Nóra assistant identity on the Solutions page, not a product demo. Static fallback, reduced motion and visibility-aware animation included. No software files, customer data or providers changed. Latest website edits remain local and unpublished.
+
+
+## Frontend-only iteration — 2026-10-18
+
+Owner approved website clarity improvements and explicitly deferred backend delivery/booking. Current local changes: clearer industry offers, visible pilot scope/pricing, five FAQs, integration explanation, contextual previous-work evidence, compact consultation layout and industry preselection. Form stays preview-only. Keep mountain hero, no product demos. Website button text is dark ink on original sky blue for contrast; software untouched. Latest changes are local, not deployed; see HANDOFF.md.
 
 ## Publication authorized — 2026-10-18
 
