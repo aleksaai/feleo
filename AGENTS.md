@@ -35,3 +35,6 @@ Owner authorized a more serious software-company presentation inspired by Parloa
 
 ## Neutral Glass selected — 2026-10-18
 Owner chose option 02 after a three-way visual comparison. Final section of enterprise.css implements neutral white/silver glass surfaces, dark logo on light surfaces, clear frosted header and silver translucent buttons. Favicon is assets/feather-neutral.svg. Keep Hanken, site structure, film images, weighted scrolling and approved landscape footer. No return to blue branding, yellow paper or opaque dark buttons without request. Reduced-transparency/forced-colors fallbacks are included.
+
+## Buttons — 2026-10-18 correction
+Owner rejected translucent bevelled glass buttons and inconsistent sizes. buttons.css is the final action-style layer: opaque white fill, restrained 1px neutral border, 6px radius, 48px desktop actions, 14px Hanken 500, unified 16px SVG arrow, equal 216px hero actions; compact mobile header is 44px tall. No gradients, blur, inner shadows, hover lift or glowing borders on buttons. Neutral Glass remains on surrounding header/image surfaces.

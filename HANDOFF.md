@@ -1,5 +1,9 @@
 # Feleo handoff
 
+## 2026-10-18 — Clean action controls
+
+Owner rejected the glass-button appearance, transparency, inconsistent sizing and generic styling. Added buttons.css as the final action system: solid white, fine neutral border, no blur/gradient/shadow, consistent 48px desktop height and 14px Hanken, aligned 16px SVG arrows. Hero actions now equal 216px width. Secondary action is a restrained outlined variant; mobile header uses explicit compact 44px control. Glass remains in header and surrounding surfaces. Existing links/form behavior preserved. Desktop computed styles and links checked; build passes.
+
 ## 2026-10-18 — Neutral Glass selected and implemented
 
 Owner rejected the warm paper/blue mix and loss of liquid glass. Shown three image comparisons; explicitly selected **Neutral Glass**. Applied to the existing website (no replacement of imagery/layout): pure white canvas, monochrome dark feather/favicon, silver translucent CTA buttons, broad frosted glass header, neutralized service/founder/pilot/form surfaces. Founder panel lightly overlaps its image to make the glass material legible. Reduced-transparency and forced-colors fallbacks included. Hanken, film images, motion and landscape footer preserved. Original blue SVG remains available but not used as current favicon.

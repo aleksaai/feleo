@@ -6,7 +6,7 @@ import { routes } from '../src/content.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const dist=path.join(root,'dist');
 await rm(dist,{recursive:true,force:true});await mkdir(dist,{recursive:true});
-for(const entry of ['style.css','motion.css','pages.css','editorial.css','enterprise.css','app.js','motion.js'])await copyFile(path.join(root,entry),path.join(dist,entry));
+for(const entry of ['style.css','motion.css','pages.css','editorial.css','enterprise.css','buttons.css','app.js','motion.js'])await copyFile(path.join(root,entry),path.join(dist,entry));
 await cp(path.join(root,'assets'),path.join(dist,'assets'),{recursive:true});
 const paths=[];
 for(const lang of ['hu','en'])for(const key of Object.keys(routes)){

@@ -1,3 +1,5 @@
+> Button correction (18 Oct): Neutral Glass applies to the surrounding interface, not action controls. Buttons now use opaque white, fine neutral borders, consistent sizing and no bevel/blur/glow. See buttons.css.
+
 > Current decision, 18 Oct 2026: **Neutral Glass** supersedes the earlier sky-blue/warm-paper palette. Pure white #FFFFFF, ink #202328, secondary #565B63, silver-gray translucent materials. Monochrome feather, glass CTA buttons and broad frosted header. Imagery retains natural color. Hanken, film imagery, motion and landscape footer remain. Earlier dated sections below are history.
 
 # Working brand direction
