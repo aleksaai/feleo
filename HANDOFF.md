@@ -1,6 +1,8 @@
 # Feleo handoff
 
-## Design System auf die Website angewendet — 2026-10-19 (Branch `design-system`, nicht live)
+## Design System auf die Website angewendet — 2026-10-19 (live)
+
+**Seit 19.10. live:** Owner gab frei („Merge design-system into main and put it live“), Fast-Forward von main auf `c46a1cd`, Netlify-Deploy auf https://feleo-ai.netlify.app geprüft (EN und HU in Roboto, Zitat unter dem ersten Bild, brand.css und JPEGs ausgeliefert).
 
 Owner-Auftrag: Website-Regeln ins Feleo Design System, dann Website auf einem Branch umbauen; er schaut vor dem Livegang drüber. Design System Abschnitt „Website“ + Baustein Website: https://claude.ai/artifact/NAy5eDsfgtcKruzcfdUwV4 (v25). Branch `design-system`, **nicht in main** (main deployt automatisch auf Netlify).
 
@@ -9,7 +11,7 @@ Owner-Auftrag: Website-Regeln ins Feleo Design System, dann Website auf einem Br
 - Startseite: Zitat SYSTEMLINE direkt unter dem ersten Bild (`proof-line`), auf der Startseite nicht mehr doppelt im Gründerabschnitt. Alle Abschnitte auf einer Kante (`content-width`).
 - Fotos als JPEG statt PNG (Startseite ca. 13 MB → unter 2 MB), PNG-Originale bleiben im Repo.
 - Prüfung: 32 Seiten ohne Abweichung bei Schrift, Gewicht, Farbe; keine Querscroll-Seite bei 320 px; `npm run check` + Build grün. Headless Chrome zeigt die Einblendungen im ersten Bild nicht (Animation läuft dort nicht), Sichtprüfung deshalb im Browser mit abgeschalteten Animationen.
-- Offen: Owner-Durchsicht, danach Merge in main (= live). Anfragen-Versand weiterhin nicht verbunden (Owner-Entscheidung). Die neun alten Stildateien sind umgestellt, aber nicht zusammengeführt.
+- Offen: Anfragen-Versand weiterhin nicht verbunden (Owner-Entscheidung). Die neun alten Stildateien sind umgestellt, aber nicht zusammengeführt.
 
 ## Session close — 2026-10-18, final state
 
