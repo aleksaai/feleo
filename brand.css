@@ -406,9 +406,14 @@ html body .site-footer .text-link:hover {
 html body .site-footer .text-link span {
   display: none;
 }
-html body .horizon-wordmark {
-  color: var(--brand);
-  opacity: 0.12;
+/* Großes Wortbild über der Landschaft im Fuß: helle Fläche, keine Transparenz.
+   Startseite in hellem Blau, Unterseiten in hellem Grau (wie vor dem Umbau). */
+html body .site-footer .horizon-wordmark {
+  color: var(--border);
+  opacity: 1;
+}
+html body[data-page="home"] .site-footer .horizon-wordmark {
+  color: var(--surface-selected);
 }
 
 @media (max-width: 700px) {
@@ -437,7 +442,7 @@ html body .horizon-wordmark {
 html body :is(h1, h2, h3, h4) * {
   font-weight: inherit;
 }
-html body .site-footer :is(p, span, small) {
+html body .site-footer :is(p, span:not(.horizon-wordmark), small) {
   color: var(--ink-muted);
 }
 html body .photo-arrow {
