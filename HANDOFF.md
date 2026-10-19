@@ -1,3 +1,16 @@
+# Feleo handoff
+
+## Design System auf die Website angewendet — 2026-10-19 (Branch `design-system`, nicht live)
+
+Owner-Auftrag: Website-Regeln ins Feleo Design System, dann Website auf einem Branch umbauen; er schaut vor dem Livegang drüber. Design System Abschnitt „Website“ + Baustein Website: https://claude.ai/artifact/NAy5eDsfgtcKruzcfdUwV4 (v25). Branch `design-system`, **nicht in main** (main deployt automatisch auf Netlify).
+
+- `ds-tokens.css` (aus dem Design System erzeugt, nur hell) und `brand.css` (Markenschicht) werden zuletzt geladen. Alte Stildateien per Skript auf Tokens umgestellt: Farben, Gewichte 400/500/600, Schrift, Glas nur noch an der Kopfleiste (`--glass`), keine blaue Textfarbe außer dem Punkt im ersten Bild.
+- Roboto (`assets/fonts/`), Wortbild Hanken. Großbuchstaben-Labels in `render.mjs` per `sc()` in Satzschreibung.
+- Startseite: Zitat SYSTEMLINE direkt unter dem ersten Bild (`proof-line`), auf der Startseite nicht mehr doppelt im Gründerabschnitt. Alle Abschnitte auf einer Kante (`content-width`).
+- Fotos als JPEG statt PNG (Startseite ca. 13 MB → unter 2 MB), PNG-Originale bleiben im Repo.
+- Prüfung: 32 Seiten ohne Abweichung bei Schrift, Gewicht, Farbe; keine Querscroll-Seite bei 320 px; `npm run check` + Build grün. Headless Chrome zeigt die Einblendungen im ersten Bild nicht (Animation läuft dort nicht), Sichtprüfung deshalb im Browser mit abgeschalteten Animationen.
+- Offen: Owner-Durchsicht, danach Merge in main (= live). Anfragen-Versand weiterhin nicht verbunden (Owner-Entscheidung). Die neun alten Stildateien sind umgestellt, aber nicht zusammengeführt.
+
 ## Session close — 2026-10-18, final state
 
 Close explicitly authorizes saving and pushing the latest frontend changes; Netlify auto-publishes main. Current public host: https://feleo-ai.netlify.app/en/ (HU root). The separate private Sites mirror remains at its earlier version and was not republished. Earlier local-only and neutral-design notes below are historical.
@@ -28,7 +41,6 @@ Owner explicitly requested pushing the corrected blue website. This supersedes t
 ## Owner correction — 2026-10-18 (current)
 
 The product-example preview was rejected. No product demos, simulated conversations or fake interfaces: the product is unfinished. Restored original mountain hero and its motion; removed workflow panels and tab JavaScript. Blue buttons now match the current local software theme: #1FB6FF, white text, 9px corners, subtle inset/drop shadow, white secondary controls; website touch-target height retained. Navigation/hero invite a consultation, not a product demo. The app source was read only and never modified. This supersedes the demo/tab and darker-action-blue descriptions below. Local preview only; no push/deployment.
-# Feleo handoff
 
 ## Local blue product preview — 2026-10-18
 

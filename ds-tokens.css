@@ -1,0 +1,112 @@
+/* Feleo Design System Tokens (Artifact NAy5eDsfgtcKruzcfdUwV4, v25). Erzeugt aus tokens.css, nur hell. Nicht von Hand ändern. */
+:root {
+  --surface: #ffffff; /* Grund jeder Arbeitsfläche: Listen, Ticket, Formulare, Dialoge. */
+  --surface-sunken: #f6f8fa; /* Hover einer Tabellenzeile, Suchfeld, Kopfzeilen von Bereichen. Eine Stufe dunkler als surface, nie getönt. */
+  --surface-subtle: #fbfcfd; /* Kopfzeile von Tabellen, ein Hauch dunkler als surface. */
+  --surface-frame: #eef1f4; /* Rahmen der App: Grund hinter der Arbeitsfläche und Grund der Seitenleiste. Die Arbeitsfläche liegt als Blatt (surface) darauf. */
+  --surface-hover: #eef2f5; /* Zeile, Navigationseintrag oder Ghost-Button unter dem Mauszeiger. */
+  --surface-selected: #e8f4fc; /* Ausgewählte Zeile und aktiver Navigationseintrag. Ein Hauch brand und der einzige getönte Grund im Produkt. */
+  --overlay-hover: rgba(23, 36, 48, 0.045); /* Hover auf dem Rahmen: Navigationseinträge, Profil, Umschalter in der Seitenleiste. */
+  --overlay-subtle: rgba(23, 36, 48, 0.06); /* Kapsel hinter Zählern in der Seitenleiste. */
+  --overlay-strong: rgba(23, 36, 48, 0.10); /* Hover auf Marken (Zugewiesen, Dringlichkeit) und auf Zähler-Kapseln. */
+  --backdrop: rgba(238, 241, 244, 0.30); /* Heller Schleier hinter einem Dialog, zusammen mit backdrop-blur. Die einzige Stelle mit Unschärfe im Produkt. */
+  --border: #e3e7eb; /* Trennlinien zwischen Zeilen, Spalten und Bereichen. 1px. Trägt keine Bedeutung, nur Gliederung. */
+  --border-subtle: #edf0f3; /* Trennlinie zwischen Tabellenzeilen. Leiser als border. */
+  --border-control: #7f8993; /* Rand von Eingabe- und Auswahlfeldern. Hält mindestens 3:1 auf allen vier Flächen. Buttons haben keinen grauen Rand mehr (seit 18.10., Stil B). */
+  --ink: #172430; /* Haupttext: Titel, Nachrichten, Werte. Auf surface, surface-sunken, surface-hover und surface-selected. */
+  --ink-secondary: #44515d; /* Beschriftungen von Feldern, Navigation, Icons. Auf allen vier Flächen mindestens 6:1. */
+  --ink-muted: #5f6b76; /* Metadaten: Kanal, Nummer, Zeitpunkt, Platzhalter. Auf allen vier Flächen mindestens 4.5:1. Nie für Inhalte, die man lesen muss. */
+  --ink-disabled: #9aa4ad; /* Schrift gesperrter Bedienelemente. Nie für Inhalte. */
+  --brand: #1fb6ff; /* Die Hauptfarbe: Feder, Fläche des primären Buttons, große Markenflächen. Nie als Textfarbe (2.3:1 auf surface). */
+  --brand-hover: #12a9f5; /* Primärer Button unter dem Mauszeiger. */
+  --brand-press: #0ea0ea; /* Primärer Button im Moment des Drückens. */
+  --on-brand: #ffffff; /* Schrift und Icons auf brand und brand-hover, immer halbfett (600). Weiß auf brand hat 2.3:1 und liegt unter WCAG AA. Bewusste Markenentscheidung vom 18.10.2026, nicht ändern. */
+  --brand-strong: #0a8fd6; /* Himmelblau, wo eine Markierung 3:1 braucht: Fokusring, aktives Navigations-Icon, Diagrammlinie. 3.2:1 und mehr auf allen vier Flächen. Nicht für Fließtext. */
+  --danger: #c42b2b; /* Priorität Dringend und Hoch, Fehler, destruktive Aktionen. Immer mit Wort oder Icon. */
+  --danger-surface: #fdf0f0; /* Hover destruktiver Aktionen (Button, Menüeintrag). Keine Fläche für Hinweise. */
+  --warning: #a35a00; /* Status In Bearbeitung, Frist läuft bald ab, Hinweise mit Handlungsbedarf. Immer mit Wort. */
+  --warning-surface: #fff6e5; /* Reserve. Hinweise sind seit 19.10.2026 Marken im Kopf (Notice), keine Banner mit farbiger Fläche. */
+  --success: #1e7a46; /* Bestätigung einer tatsächlich ausgeführten Aktion und Vertragsstatus Aktiv. Nicht für Erledigt in Listen. */
+  --data-primary: var(--brand); /* Linie und Balken der Hauptreihe in Diagrammen, in Hellblau wie die Marke. Flach, ohne Fläche unter der Linie und ohne Verlauf. */
+  --data-secondary: #cfd5db; /* Vergleichsreihe (Vorwoche, Zeitraum davor) als gestrichelte Linie, Hilfslinie beim Darüberfahren. */
+  --data-2: #79d1ff; /* Zweite Kategorie in Diagrammen (etwa E-Mail), helle Stufe von brand. */
+  --data-3: #b0e4ff; /* Dritte Kategorie, auch der Anteil des Teams neben dem Agenten. */
+  --data-4: #d7f1ff; /* Vierte Kategorie, die hellste Stufe. */
+  --data-track: #cfd5db; /* Nicht gefüllte Balken der Dringlichkeit. */
+  --rail: rgba(23, 36, 48, 0.14); /* Schiene eines ausgeschalteten Schalters. */
+  --rail-on: rgba(31, 182, 255, 0.38); /* Schiene eines eingeschalteten Schalters. Der Knopf ist dann brand. */
+  --glass: rgba(255, 255, 255, 0.78); /* Fläche der schwebenden Kopfleiste auf der Website, immer mit glass-blur. Sonst nirgends. */
+}
+:root {
+  --space-1: 4px; /* Zwischen Icon und Wort, zwischen Metazeile und Titel. */
+  --space-2: 8px; /* Zwischen Bedienelementen in einer Leiste, Innenabstand von Tags. */
+  --space-3: 12px; /* Vertikaler Innenabstand einer Listenzeile, Innenabstand von Buttons. */
+  --space-4: 16px; /* Innenabstand von Panels und Dialogen, Abstand zwischen Feldgruppen. */
+  --space-5: 20px; /* Innenabstand von Dialogen. */
+  --space-6: 24px; /* Seitenrand der Arbeitsfläche, Abstand zwischen Abschnitten. */
+  --space-8: 32px; /* Abstand zwischen großen Blöcken in der Übersicht. */
+  --radius-control: 8px; /* Buttons, Eingabefelder, Menüeinträge. Stil B vom 18.10. */
+  --radius-tag: 6px; /* Kleine Tags (20px hoch). */
+  --radius-field: 6px; /* Hover- und Tippfläche einer Formularzeile, Einträge einer aufgeklappten Auswahlliste. */
+  --radius-chip: 8px; /* Marken in Tabellen (Person, Dringlichkeit), Ansichtsschalter, Suchfeld. */
+  --radius-item: 10px; /* Einträge der Seitenleiste und ihre aktive Karte. */
+  --radius-float: 12px; /* Menüs, Auswahllisten und Popover: alles, was über der Fläche schwebt. Dialoge haben radius-dialog. */
+  --radius-dialog: 14px; /* Dialoge über dem verschwommenen Hintergrund. */
+  --radius-sheet: 14px; /* Das Blatt der Arbeitsfläche auf dem Rahmen. */
+  --radius-full: 999px; /* Avatare und Statuspunkte. Nie für Buttons oder Status-Pillen. */
+  --radius-image: 14px; /* Bilder und Bildkarten auf der Website. */
+  --radius-control-lg: 10px; /* Große Website-Buttons (control-lg) und die Kopfleiste der Website. */
+  --shadow-raised: 0 0 0 1px rgba(23, 36, 48, 0.07), 0 1px 2px rgba(23, 36, 48, 0.06), 0 3px 8px -3px rgba(23, 36, 48, 0.10), inset 0 1px 0 #ffffff; /* Aktive Karte in der Seitenleiste: liegt angehoben auf dem Rahmen. */
+  --shadow-sheet: 0 0 0 1px rgba(23, 36, 48, 0.06), 0 1px 3px rgba(23, 36, 48, 0.06), 0 8px 24px -12px rgba(23, 36, 48, 0.12); /* Das Blatt der Arbeitsfläche auf surface-frame. */
+  --shadow-float: 0 0 0 1px rgba(23, 36, 48, 0.08), 0 12px 32px -8px rgba(23, 36, 48, 0.22), 0 2px 6px rgba(23, 36, 48, 0.06); /* Menüs, Auswahllisten, Popover, etwa Zuweisen und Dringlichkeit. */
+  --shadow-dialog: 0 16px 48px rgba(23, 36, 48, 0.16), 0 0 0 1px rgba(23, 36, 48, 0.06); /* Dialoge über einer abgedunkelten Fläche. */
+  --shadow-checkbox: 0 0 0 1px rgba(23, 36, 48, 0.20), 0 1px 2px rgba(23, 36, 48, 0.08); /* Leere Checkbox: weicher Rand wie beim sekundären Button. */
+  --shadow-checkbox-hover: 0 0 0 1px rgba(23, 36, 48, 0.30), 0 1px 2px rgba(23, 36, 48, 0.10); /* Leere Checkbox unter dem Mauszeiger. */
+  --shadow-checkbox-on: inset 0 1px 0 rgba(255, 255, 255, 0.30), 0 0 0 1px rgba(10, 143, 214, 0.60), 0 1px 2px rgba(10, 143, 214, 0.30); /* Gewählte Checkbox: gefüllt in brand mit heller Oberkante wie der Hauptbutton. */
+  --shadow-segment: 0 0 0 1px rgba(23, 36, 48, 0.07), 0 1px 2px rgba(23, 36, 48, 0.08); /* Gewählter Teil eines Segments und des Ansichtsschalters. */
+  --shadow-knob: 0 1px 3px rgba(23, 36, 48, 0.30), 0 0 0 0.5px rgba(23, 36, 48, 0.10); /* Knopf des Schalters, der über der Schiene liegt. */
+  --shadow-button-primary: inset 0 1px 0 rgba(255, 255, 255, 0.28), 0 1px 2px rgba(10, 143, 214, 0.35), 0 0 0 1px rgba(10, 143, 214, 0.55); /* Primärer Button: feine helle Oberkante, dunklere Kontur, leichte Tiefe. */
+  --shadow-button-primary-pressed: inset 0 1px 2px rgba(10, 100, 160, 0.35), 0 0 0 1px rgba(10, 143, 214, 0.6); /* Primärer Button im Moment des Drückens. */
+  --shadow-button: 0 0 0 1px rgba(23, 36, 48, 0.13), 0 1px 2px rgba(23, 36, 48, 0.07); /* Sekundärer Button: weicher Rand statt grauer Kontur. */
+  --shadow-button-hover: 0 0 0 1px rgba(23, 36, 48, 0.2), 0 1px 3px rgba(23, 36, 48, 0.1); /* Sekundärer Button unter dem Mauszeiger. */
+  --shadow-button-danger: 0 0 0 1px rgba(196, 43, 43, 0.25), 0 1px 2px rgba(23, 36, 48, 0.06); /* Destruktiver Button. */
+  --shadow-composer: 0 0 0 1px rgba(23, 36, 48, 0.12), 0 4px 14px -6px rgba(23, 36, 48, 0.12); /* Antwortfeld unten im Ticket: weicher Rand, liegt leicht über dem Verlauf. */
+  --shadow-composer-focus: 0 0 0 1px rgba(23, 36, 48, 0.32), 0 4px 14px -6px rgba(23, 36, 48, 0.14); /* Antwortfeld beim Schreiben: der Rand wird dunkler, kein Blau. */
+  --control-md: 34px; /* Höhe von Buttons und Eingabefeldern. */
+  --control-sm: 28px; /* Höhe von Buttons in Zeilen und Werkzeugleisten. */
+  --icon: 16px; /* Icons in Zeilen, Buttons und Feldern. */
+  --icon-sm: 14px; /* Kanal-Icons in Metazeilen und Icons in Status und Priorität. */
+  --icon-nav: 20px; /* Gefüllte Icons in der Seitenleiste. */
+  --row-list: 60px; /* Zweizeilige Listenzeile mit Metazeile und Titel, etwa Kontakte und Aufgaben. */
+  --row-table: 48px; /* Zeile der Inbox-Tabelle. */
+  --row-field: 44px; /* Höhe einer Formularzeile (Feld 34px plus 5px oben und unten). */
+  --field-label: 132px; /* Breite der Bezeichnungsspalte in Formularen. */
+  --backdrop-blur: 6px; /* Unschärfe hinter einem Dialog. */
+  --sidebar: 220px; /* Breite der ausgeklappten Seitenleiste. */
+  --sidebar-rail: 72px; /* Breite der eingeklappten Seitenleiste. Die Icons bleiben dabei an derselben Stelle. */
+  --nav-item: 42px; /* Höhe eines Eintrags in der Seitenleiste. */
+  --control-lg: 48px; /* Höhe der Buttons auf der Website und in Anzeigen. In der App nie. */
+  --content-width: 1200px; /* Breite des Inhalts auf der Website. Seitenrand mindestens 24px, ab 1024px 48px. */
+  --text-width: 640px; /* Höchstbreite von Fließtext und Einleitungen auf der Website. */
+  --section-gap: 128px; /* Abstand zwischen Abschnitten der Website. Auf dem Handy 80px. */
+  --glass-blur: 16px; /* Unschärfe hinter der schwebenden Kopfleiste der Website. Die einzige Glasfläche außerhalb des Dialog-Hintergrunds. */
+  --font-sans: "Roboto", system-ui, sans-serif;
+  --font-logo: "Hanken Grotesk", system-ui, sans-serif;
+  --text-page-title: 500 20px/28px var(--font-sans); /* Seitentitel, genau einer pro Ansicht. Mittel, nie fett. */
+  --text-section-title: 500 16px/24px var(--font-sans); /* Titel eines Tickets im Kopf, Überschriften von Panels und Dialogen. Mittel, nie fett. */
+  --text-body: 400 14px/20px var(--font-sans); /* Nachrichten, Beschreibungen, Feldwerte. */
+  --text-body-medium: 500 14px/20px var(--font-sans); /* Zeilentitel in Listen, Buttons, Navigation, Feldbeschriftungen. */
+  --text-control: 500 13px/18px var(--font-sans); /* Ansichtsschalter, Marken für Person und Dringlichkeit, Einträge in Menüs. */
+  --text-label: 400 13px/18px var(--font-sans); /* Bezeichnungen in Formularzeilen, Einträge in Menüs und Auswahllisten, der Satz unter einem Segment. */
+  --text-meta: 400 12px/16px var(--font-sans); /* Metadaten unter oder über einem Titel, Achsen, Zeitstempel. */
+  --text-meta-medium: 500 12px/16px var(--font-sans); /* Status, Tags, Priorität, Zähler. */
+  --text-figure: 500 28px/32px var(--font-sans); /* Kennzahlen in der Übersicht. Immer mit tabular-nums. */
+  --text-display: 500 48px/55px var(--font-sans); /* Überschriften auf der Website und in Anzeigen. Einstellung wie bei fonio.ai: mittel, eng, nie fett. */
+  --text-display-sm: 500 32px/38px var(--font-sans); /* Kleinere Anzeigen und Abschnittstitel auf der Website. */
+  --text-display-xl: 500 80px/84px var(--font-sans); /* Nur die eine Hauptüberschrift im ersten Bild einer Website-Seite. Fließend mit clamp(44px, 6vw, 80px), Zeilenhöhe 1.05. */
+  --text-lead: 400 20px/30px var(--font-sans); /* Ein bis zwei Sätze direkt unter display-xl oder display, in ink-secondary. Auf dem Handy 18/28. */
+  --text-body-lg: 400 17px/28px var(--font-sans); /* Fließtext auf der Website. Höchstens 64 Zeichen je Zeile. */
+  --text-button-lg: 500 15px/20px var(--font-sans); /* Beschriftung der großen Website-Buttons (control-lg). Auf dem Hauptbutton 600. */
+}
+@font-face{font-family:"Roboto";src:url("/assets/fonts/Roboto-Variable.ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Hanken Grotesk";src:url("/assets/hanken-HankenGrotesk[wght].ttf") format("truetype");font-weight:100 900;font-style:normal;font-display:swap}

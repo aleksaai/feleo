@@ -1,0 +1,551 @@
+/* Feleo Markenschicht nach dem Design System (Abschnitt Website, 19.10.2026).
+   Wird als letzte Stildatei geladen. Gleiche Marke wie die App: Tokens aus
+   ds-tokens.css, Roboto (Wortbild Hanken), Gewichte 400/500/600, Buttons Stil B.
+   Eigene Website-Regeln: große Schrift, viel Raum, Bilder, eine Glas-Kopfleiste. */
+
+/* ── Alte Variablen der Website auf die Tokens legen ───────────────── */
+:root {
+  --sky: var(--brand);
+  --body: var(--ink-secondary);
+  --paper: var(--surface);
+  --line: var(--border);
+  --display: var(--font-sans);
+  --sans: var(--font-sans);
+  --brand-accent: var(--brand);
+  --action-fill: var(--surface);
+  --action-text: var(--ink);
+  --action-border: transparent;
+  --ease-brand: cubic-bezier(.22, 1, .36, 1);
+}
+
+/* ── Schrift und Farben ───────────────────────────────────────────── */
+html body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html body :is(h1, h2, h3, h4, h5, p, li, a, button, input, select, textarea, label, summary, blockquote, cite, small, strong, b, span, dt, dd, th, td) {
+  font-family: var(--font-sans);
+}
+html body .brand span,
+html body .horizon-wordmark {
+  font-family: var(--font-logo);
+}
+html body :is(p, li, dd, td) {
+  color: var(--ink-secondary);
+}
+html body :is(strong, b, th, dt) {
+  font-weight: 500;
+  color: var(--ink);
+}
+::selection {
+  background: var(--surface-selected);
+}
+
+/* Typo-Skala der Website */
+html body h1 {
+  font-size: clamp(44px, 6vw, 80px);
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+html body h2 {
+  font-size: clamp(32px, 3.6vw, 48px);
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+html body h2 span {
+  color: var(--ink-muted);
+}
+html body h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+}
+html body h4 {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--ink);
+}
+html body p,
+html body li {
+  font-size: 17px;
+  line-height: 28px;
+}
+html body .hero-description,
+html body .page-hero p,
+html body .visual-section-heading p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--ink-secondary);
+  max-width: var(--text-width);
+}
+html body :is(small, cite, .small-note, .scope-note, .agent-example-note, .ai-portrait-note) {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--ink-muted);
+  letter-spacing: 0;
+}
+
+/* Keine Großbuchstaben-Labels: Abschnittsmarken in Satzschreibung */
+html body .section-label {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--ink-muted);
+}
+html body [style*="uppercase"],
+html body :is(.section-label, small, cite, .preview-notice, .price-unit) {
+  text-transform: none;
+}
+
+/* Blauer Punkt im ersten Bild: einziger Akzent */
+html body .sky-period {
+  color: var(--brand);
+}
+
+/* ── Links ────────────────────────────────────────────────────────── */
+html body .text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 0;
+  background: none;
+}
+html body .text-link span {
+  color: var(--ink-muted);
+  transition: transform 200ms var(--ease-brand), color 140ms ease;
+}
+html body .text-link:hover span {
+  color: var(--ink);
+  transform: translate(2px, -2px);
+}
+html body main a:not(.button):not(.text-link):not(.industry-photo):not(.brand) {
+  color: var(--ink);
+}
+
+/* ── Buttons Stil B, Website-Größe ───────────────────────────────── */
+html body .button,
+html body .button.dark,
+html body .nav .nav-cta,
+html body .is-scrolled .nav .nav-cta,
+html body .hero-actions > .button,
+html body .closing-actions .button,
+html body .page-hero .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: auto;
+  min-width: 0;
+  height: var(--control-lg);
+  min-height: var(--control-lg);
+  padding: 0 20px;
+  border: 0;
+  border-radius: var(--radius-control-lg);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+  text-decoration: none;
+  box-shadow: var(--shadow-button);
+  filter: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transition: background-color 140ms ease, box-shadow 140ms ease, transform 120ms ease;
+}
+html body .button:hover,
+html body .button-secondary:hover {
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-button-hover);
+  transform: none;
+}
+html body .button.dark,
+html body .nav .nav-cta,
+html body .is-scrolled .nav .nav-cta,
+html body .hero-actions > .button.dark,
+html body .closing-actions .button,
+html body .page-hero .button,
+html body form button[type="submit"],
+html body form .button {
+  background: var(--brand);
+  color: var(--on-brand);
+  font-weight: 600;
+  box-shadow: var(--shadow-button-primary);
+}
+html body .button.dark:hover,
+html body .nav .nav-cta:hover,
+html body .hero-actions > .button.dark:hover,
+html body .closing-actions .button:hover,
+html body .page-hero .button:hover,
+html body form button[type="submit"]:hover {
+  background: var(--brand-hover);
+  color: var(--on-brand);
+  box-shadow: var(--shadow-button-primary);
+}
+html body .button:active {
+  transform: scale(0.98);
+}
+html body .button:focus-visible,
+html body a:focus-visible,
+html body button:focus-visible,
+html body summary:focus-visible {
+  outline: 2px solid var(--brand-strong);
+  outline-offset: 3px;
+}
+html body .button .button-arrow {
+  width: 16px;
+  height: 16px;
+}
+html body .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+html body .hero-actions > .button {
+  min-width: 0;
+  width: auto;
+}
+
+/* ── Kopfleiste: die einzige Glasfläche ──────────────────────────── */
+html body .nav,
+html body .is-scrolled .nav {
+  border: 0;
+  border-radius: var(--radius-control-lg);
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(1.1);
+  backdrop-filter: blur(var(--glass-blur)) saturate(1.1);
+  box-shadow: var(--shadow-raised);
+}
+html body .nav-links > [data-nav] {
+  color: var(--ink-secondary);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+html body .nav-links > [data-nav]:hover,
+html body .nav-links > [data-nav][aria-current="page"] {
+  color: var(--ink);
+}
+html body .nav-indicator {
+  background: var(--brand);
+}
+html body .nav .nav-cta,
+html body .is-scrolled .nav .nav-cta {
+  height: 44px;
+  min-height: 44px;
+}
+html body .locale {
+  color: var(--ink-muted);
+  font-size: 13px;
+  font-weight: 500;
+}
+html body .brand {
+  color: var(--ink);
+}
+html body .brand span {
+  font-weight: 550;
+  letter-spacing: -1.5px;
+}
+html body .brand svg {
+  fill: var(--brand);
+  color: var(--brand);
+}
+
+/* ── Erstes Bild ─────────────────────────────────────────────────── */
+html body .hero {
+  background: var(--surface-sunken);
+}
+html body .hero:after {
+  background: linear-gradient(180deg, var(--surface) 0%, rgba(255, 255, 255, 0.82) 30%, rgba(255, 255, 255, 0.35) 58%, rgba(255, 255, 255, 0) 80%);
+}
+html body .hero h1 {
+  max-width: 900px;
+}
+html body .hero .hero-description {
+  margin-top: 24px;
+}
+html body .hero .hero-actions {
+  margin-top: 36px;
+}
+
+/* ── Abschnitte: Raum statt Rahmen ───────────────────────────────── */
+html body :is(.blue-implementation, .pilot-panel, .enquiry-panel, .consultation-layout aside, .compact-scope, .founder-editorial-copy, .solution-readiness, .agent-introduction) {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+html body .pilot-panel,
+html body .enquiry-panel {
+  padding: 40px;
+  border-radius: var(--radius-image);
+  background: var(--surface-sunken);
+}
+html body :is(.blue-implementation, .connection-note, .founder-editorial, .faq, .closing, .visual-industries) {
+  border-color: var(--border-subtle);
+}
+html body .blue-implementation ol li {
+  border-color: var(--border-subtle);
+}
+html body .blue-implementation ol li::before,
+html body .blue-implementation ol li > span:first-child {
+  border-color: var(--border);
+  color: var(--ink-muted);
+  background: var(--surface);
+}
+
+/* ── Bilder ──────────────────────────────────────────────────────── */
+html body :is(.industry-photo img, .founder-editorial-image img, .detail-photograph img, .contact-portrait img, .project-art, .industry-photo > div) {
+  border-radius: var(--radius-image);
+  box-shadow: none;
+}
+html body .photo-arrow {
+  border: 0;
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-raised);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+html body .industry-photo h3 {
+  margin-top: 20px;
+}
+
+/* ── Fragen ──────────────────────────────────────────────────────── */
+html body .faq-list details {
+  border-color: var(--border-subtle);
+}
+html body .faq-list summary {
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+/* ── Preise ──────────────────────────────────────────────────────── */
+html body .price-grid article {
+  border-color: var(--border);
+  background: transparent;
+  box-shadow: none;
+}
+html body .price-grid :is(strong, .price, b) {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Formular: Bezeichnung über dem Feld, ruhige Flächen ─────────── */
+html body form :is(input, select, textarea) {
+  border: 0;
+  border-radius: var(--radius-control-lg);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 16px;
+  box-shadow: 0 0 0 1px var(--border);
+  caret-color: var(--brand);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+html body form :is(input, select, textarea):hover {
+  box-shadow: 0 0 0 1px var(--ink-disabled);
+}
+html body form :is(input, select, textarea):focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--brand-strong);
+}
+html body form label {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ── Abschluss und Fuß ───────────────────────────────────────────── */
+html body .site-footer {
+  color: var(--ink-secondary);
+}
+html body .site-footer strong {
+  color: var(--ink);
+  font-size: 15px;
+  font-weight: 500;
+}
+html body .site-footer .text-link {
+  color: var(--ink-secondary);
+  font-size: 15px;
+  font-weight: 400;
+}
+html body .site-footer .text-link:hover {
+  color: var(--ink);
+}
+html body .site-footer .text-link span {
+  display: none;
+}
+html body .horizon-wordmark {
+  color: var(--brand);
+  opacity: 0.12;
+}
+
+@media (max-width: 700px) {
+  html body .hero-description,
+  html body .page-hero p,
+  html body .visual-section-heading p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  html body .hero-actions > .button {
+    flex: 1 1 100%;
+  }
+  html body .pilot-panel,
+  html body .enquiry-panel {
+    padding: 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html body .text-link span,
+  html body .button {
+    transition: none;
+  }
+}
+
+/* Nachträge aus der Prüfung aller Seiten */
+html body :is(h1, h2, h3, h4) * {
+  font-weight: inherit;
+}
+html body .site-footer :is(p, span, small) {
+  color: var(--ink-muted);
+}
+html body .photo-arrow {
+  color: var(--ink);
+}
+/* Erstes Bild: alte Regeln setzen Größe, Stärke und Laufweite mit !important */
+html body .hero h1,
+html body[data-page] .hero h1 {
+  font-size: clamp(44px, 6vw, 80px) !important;
+  line-height: 1.05 !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.03em !important;
+  margin: 0 !important;
+}
+
+/* Beleg direkt unter dem ersten Bild (Conversion-Regel im Design System) */
+html body .proof-line {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 32px;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 48px 48px 0;
+  box-sizing: border-box;
+}
+html body .proof-line blockquote {
+  margin: 0;
+}
+html body .proof-line blockquote p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+html body .proof-line blockquote small {
+  display: block;
+  margin-top: 8px;
+}
+html body .proof-source {
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--ink-muted);
+  text-align: right;
+}
+html body .proof-source strong {
+  color: var(--ink);
+}
+html body .proof-source a {
+  color: var(--ink-muted) !important;
+  font-size: 14px;
+}
+html body[data-page="home"] .founder-proof {
+  display: none;
+}
+@media (max-width: 700px) {
+  html body .proof-line {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 32px 20px 0;
+  }
+  html body .proof-line blockquote p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  html body .proof-source {
+    text-align: left;
+  }
+}
+
+/* Eine Inhaltskante für alle Abschnitte: content-width, auf kleinen Bildschirmen 20px Rand.
+   !important, weil ältere Regeln hier mit Klassenketten arbeiten. */
+html body main > section:not(.hero),
+html body main > div > section,
+html body main > .proof-line {
+  box-sizing: border-box !important;
+  width: min(var(--content-width), 100% - 40px) !important;
+  max-width: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+html body .proof-line {
+  padding-top: 56px;
+  padding-bottom: 0;
+}
+html body .blue-industries {
+  margin-top: 0 !important;
+  padding-top: 96px !important;
+}
+html body .visual-section-heading,
+html body .visual-section-heading h2 {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+html body[data-page="home"] .hero {
+  margin-bottom: 0 !important;
+}
+html body .proof-line {
+  padding-top: 48px !important;
+}
+/* Kein blauer Text: Namen und Beschriftungen in Tinte */
+html body .agent-identity strong,
+html body .agent-identity b {
+  color: var(--ink);
+}
