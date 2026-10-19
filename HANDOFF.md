@@ -1,5 +1,10 @@
 # Feleo handoff
 
+### Was wurde in dieser Session gemacht (2026-10-19)
+
+Design System (Abschnitt „Website“) angewendet und nach Aleksas Freigabe live geschaltet (main `c46a1cd`, Netlify geprüft). Danach Fix `718d92d`: großes Wortbild „feleo“ im Fuß war durch die Farbmigration weiß und unsichtbar; jetzt Startseite `surface-selected` (hellblau), Unterseiten `border` (hellgrau), wie vorher. Branch `design-system` ist auf main nachgezogen. Anfragen-Versand weiterhin nicht verbunden.
+
+
 ## Design System auf die Website angewendet — 2026-10-19 (live)
 
 **Seit 19.10. live:** Owner gab frei („Merge design-system into main and put it live“), Fast-Forward von main auf `c46a1cd`, Netlify-Deploy auf https://feleo-ai.netlify.app geprüft (EN und HU in Roboto, Zitat unter dem ersten Bild, brand.css und JPEGs ausgeliefert).
