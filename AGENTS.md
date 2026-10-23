@@ -1,3 +1,7 @@
+## Current brand reference — 23 October 2026
+
+The owner requested consolidation after approving Eisweiß, the current white tiles and original Feleo Schwung icons. The maintained brand/design package is `../feleo-app/brand-system/README.md` (private repository `aleksaai/feleo_software`, `brand-system/`). Use it over conflicting older artifact/export notes below. Roboto is ordinary text, Hanken is the wordmark; #1FB6FF remains the brand blue. Eisweiß is the app-frame decision; preserve the existing website composition until a website change is requested. This update changes guidance, not website CSS or published pages.
+
 ## Session close — 2026-10-18
 
 Latest close authorizes pushing the current frontend to main (Netlify auto-deploy). Earlier local-only notes are superseded for this save. Preserve white text on sky-blue software-style buttons, mountain hero, and no product demos. Nóra's animated identity is on Solutions. Enquiry/booking backend is explicitly deferred by owner. Read the latest HANDOFF.md entry before historical notes below. Do not modify customer software or parallel app work.
