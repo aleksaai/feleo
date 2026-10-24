@@ -1,5 +1,11 @@
 # Scaleway website deployment
 
+## Live release — 24 October 2026
+
+https://feleo.ai now runs on Scaleway Amsterdam, original approved app/worker server 51.15.114.118 (BASIC2-A2C-4G). Caddy serves /srv/feleo-website/current -> releases/20261024-a2a22f9 with persistent TLS certificates and www redirect. IONOS A/AAAA updated; www CNAME retained. All32 routes and assets byte-identical over real HTTPS; sitemap26 URLs, robots and genuine404 verified. Public proof: artifacts/scaleway-live-20261024/verification.json and website-live.png.
+
+Software https://app.feleo.ai and API https://api.feleo.ai also migrated in this authorized session; see sibling feleo-app/docs/SCALEWAY-MIGRATION.md. Mail DNS unchanged. Production uses no Netlify hosting; the historical unbound preview remains. Save this branch rather than main while main still triggers that historical preview. Google indexing/Search Console submission not claimed; crawl metadata is live. Draft legal/company pages and enquiry delivery remain separate work. The earlier identity/Paris blockers below are historical: owner subsequently approved Amsterdam.
+
 ## Session close — 2026-10-24
 
 Preparation is saved on `codex/scaleway-website`, not pushed to `main`, because main still triggers Netlify publication. Scaleway deployment remains pending; the prior successful checks above do not establish live hosting.

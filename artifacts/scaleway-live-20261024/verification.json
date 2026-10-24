@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-24",
+  "host": "Scaleway nl-ams-1",
+  "domain": "https://feleo.ai",
+  "routes": 32,
+  "tlsVerified": true,
+  "assetsByteEqual": true,
+  "wwwRedirectsToApex": true,
+  "sitemapUrls": 26,
+  "indexingRequested": false,
+  "source": "a2a22f9"
+}
