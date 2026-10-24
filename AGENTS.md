@@ -1,3 +1,7 @@
+## 24 October 2026 — Production live on Scaleway
+
+https://feleo.ai is live on the owner-approved Scaleway Amsterdam app/worker server 51.15.114.118. IONOS A/AAAA updated, www redirects to apex, mail records preserved. All32 routes, assets, HTTPS, genuine404 and26-URL sitemap verified. Software https://app.feleo.ai and backend https://api.feleo.ai also migrated; operations/rollback in sibling feleo-app/docs/SCALEWAY-MIGRATION.md. No production Netlify hosting. Google indexing not requested; draft legal/company pages and enquiry delivery remain separate work. Save to codex/scaleway-website: main still triggers the historical Netlify preview. Live website receipt: docs/SCALEWAY-WEBSITE.md and artifacts/scaleway-live-20261024/. Earlier blockers below are historical.
+
 ## 23 October 2026 — Scaleway-only website direction (not deployed)
 
 Owner explicitly rejects Netlify for the production website. Target: **https://feleo.ai** for the marketing site on Scaleway; **app.feleo.ai** is reserved for the later software migration. IONOS remains the registrar/DNS provider. Scaleway Transactional Email domain verification is separate from account ID approval.
