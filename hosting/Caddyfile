@@ -1,0 +1,14 @@
+# Include this file from the Scaleway server's main Caddyfile.
+# Install only dist/ under /srv/feleo-website/current; never serve the repository.
+feleo.ai {
+    root * /srv/feleo-website/current
+    encode zstd gzip
+    file_server
+    handle_errors 404 {
+        rewrite * /404.html
+        file_server
+    }
+}
+www.feleo.ai {
+    redir https://feleo.ai{uri} permanent
+}

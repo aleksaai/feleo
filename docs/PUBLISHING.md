@@ -1,3 +1,5 @@
+> Current production direction (23 October 2026): Scaleway only; no Netlify production connection. See [SCALEWAY-WEBSITE.md](SCALEWAY-WEBSITE.md). The Netlify/Sites instructions below are historical preview details.
+
 # Source and preview publication
 
 Canonical source: https://github.com/aleksaai/feleo.
